@@ -20,7 +20,7 @@
 
 <script src="./16Blocks/assets/js/16loader.js"></script>
 <script>
-	basket.require({ url: 'css/styles.css', execute: false }).then(function(responses) {
+	loader.require({ url: './16Blocks/assets/js', execute: false }).then(function(responses) {
 		// HACK: function parameters for the promise method don't appear to be documented, but they contain the responses for now.
 		var css = responses[0];
 		_stylesheet.appendStyleSheet(css, function(err, style) {
