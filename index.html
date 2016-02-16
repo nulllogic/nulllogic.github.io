@@ -18,9 +18,9 @@
 </head>
 <body>
 
-<script src="./16Blocks/assets/js/16loader.js"></script>
+<script src="https://cdn.rawgit.com/nulllogic/16Blocks/master/assets/js/16loader.js"></script>
 <script>
-	loader.require({ url: './16Blocks/assets/js', execute: false }).then(function(responses) {
+	loader.require({ url: 'https://cdn.rawgit.com/nulllogic/16Blocks/master/assets/css/16blocks.css', execute: false }).then(function(responses) {
 		// HACK: function parameters for the promise method don't appear to be documented, but they contain the responses for now.
 		var css = responses[0];
 		_stylesheet.appendStyleSheet(css, function(err, style) {
