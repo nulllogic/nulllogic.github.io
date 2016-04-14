@@ -833,6 +833,7 @@ img, object, embed {
 
 .nav.nav-horizontal .menu-heading {
 	margin-top: .5em;
+	font-weight: bold;
 }
 
 .nav.nav-horizontal ul {
@@ -872,6 +873,7 @@ img, object, embed {
 	left: -1px;
 	position: absolute;
 	z-index: 5;
+	min-width: 150px;
 }
 
 .nav.nav-horizontal ul > li.has-dropdown.mega-dropdown > ul.dropdown {
