@@ -1702,12 +1702,15 @@ ol li ul, ol li ol {
 blockquote, blockquote p {
     line-height: 1.5;
     color: #6f6f6f;
+    padding:0;
+    margin:0;
+
 }
 
 blockquote {
-    margin: 0 0 17px;
-    padding: 9px 20px 0 19px;
-    border-left: 1px solid #dddddd;
+    padding: 9px 20px 10px 19px;
+    border-left: 4px solid rgba(119, 119, 119, 0.71);
+    margin-bottom: 10px;
 }
 
 blockquote cite {
@@ -2235,10 +2238,6 @@ p.lead {
     text-shadow: none;
     background-color: transparent;
     border: 0;
-}
-
-.highlight {
-    background: #ffff99;
 }
 
 .shadow {
