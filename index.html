@@ -1,121 +1,44 @@
 <!DOCTYPE html>
 <html>
-<link>
+<head>
 
-<!-- SEO
-================================================== -->
+    <!-- SEO
+	================================================== -->
 
-<title>[ 16Blocks CSS framework ]</title>
+    <title>[ 16Blocks CSS framework ]</title>
 
 
-<meta name="description" content=""/>
-<meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
 
-<meta name="viewport" content="width=device-width"/>
+    <meta name="viewport" content="width=device-width"/>
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-<link rel="stylesheet" href="../16Blocks/assets/css/16blocks.css"/>
-<link rel="stylesheet" href="../16Blocks/assets/css/16blocks.css"/>
-<link rel="stylesheet" href="./assets/css/16blocks.css"/>
-<link rel="stylesheet" href="./assets/css/app.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <link rel="stylesheet" href="./assets/css/16blocks.css"/>
+    <link rel="stylesheet" href="./assets/css/vendor/hljs/vs.css"/>
+    <link rel="stylesheet" href="./assets/css/app.css"/>
 
-<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="./assets/js/jquery.timeago.min.js"></script>
-
-<script src="https://cdn.rawgit.com/nulllogic/16Blocks/master/assets/js/rsvp-latest.min.js"></script>
-<script src="https://rawgit.com/nulllogic/16Blocks/master/assets/js/16loader.js"></script>
-<script src="./assets/js/app.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="./assets/js/jquery.timeago.min.js"></script>
+    <script src="./assets/js/highlight.pack.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad({
+            tabReplace: '  ' // 4 spaces
+        });</script>
+    <script src="./assets/js/app.js"></script>
 
 
 </head>
 <body>
 
+<div class="include" data-include="header"></div>
+
 <div class="container">
-
-    <div class="row">
-
-        <div class="nav nav-horizontal">
-            <!-- NAV ITEMS -->
-            <div class="row">
-                <!-- NAV TITLE -->
-                <ul class="to-left">
-                    <li class="name">
-                        <a href="#" class="title">
-                            Top Bar Title
-                        </a>
-                    </li>
-                    <li class="toggle-navbar"><a href="#"></a></li>
-                </ul>
-                <!-- Left Nav Section -->
-                <ul class="to-left">
-                    <li class="has-dropdown">
-                        <a class="active" href="#">Grid <span class="caret"></span></a>
-                        <ul class="dropdown">
-                            <li class="menu-heading">
-                                <a>Section Name</a>
-                            </li>
-                            <li>
-                                <a href="#" class="">Level 1, Has Dropdown</a>
-                            </li>
-                            <li>
-                                <a href="#">Level 1</a>
-                            </li>
-                            <li class="divider"></li>
-                            <li class="menu-heading">
-                                <a>Section Name</a>
-                            </li>
-                            <li><a href="#">Level 1</a></li>
-                            <li><a href="#">Level 1</a></li>
-                            <li><a href="#">Level 1</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">See all в†’</a></li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <a class="active" href="#">Navigation</a>
-                    </li>
-
-                    <li>
-                        <a class="active" href="#">Typography</a>
-                    </li>
-
-                    <li>
-                        <a class="" href="#">Forms</a>
-                    </li>
-
-                </ul>
-
-                <!-- Right Nav Section -->
-                <ul class="to-right">
-                    <li class="show-for-medium-and-up"></li>
-                    <li class="has-dropdown">
-                        <a href="#">Item 2 <span class="caret"></span></a>
-                        <ul class="dropdown">
-                            <li class="title back js-generated"><h5><a href="#">Item 2</a></h5></li>
-                            <li><label>Section Name</label></li>
-                            <li><a href="#" class="">Level 1</a></li>
-                            <li><a href="#">Dropdown Option</a></li>
-                            <li><a href="#">Dropdown Option</a></li>
-                            <li class="divider"></li>
-                            <li><label>Section Name</label></li>
-                            <li><a href="#">Dropdown Option</a></li>
-                            <li><a href="#">Dropdown Option</a></li>
-                            <li><a href="#">Dropdown Option</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">See all в†’</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </div>
 
     <!--BLOCK-->
 
     <div class="row b-intro">
-        <div class="s16 column">
+        <div class="xs16 column">
             <div class="welcome">
                 <h1 class="title">16blocks framework</h1>
                 <span class="subtitle">Sexy, simple, sleek tool for developers </span>
@@ -126,7 +49,7 @@
 
     <div class="row b-github">
 
-        <div class="column s16">
+        <div class="column xs16">
 
             <div class="commit">
                 Latest Commit on Github:
@@ -150,7 +73,7 @@
     <!-- WELCOME  -->
 
     <div class="row b-content-introduction">
-        <div class="sixteen column">
+        <div class="xs16 column">
             <p class="greetings">Welcome to 16Girls CSS framework, that will give you most of
                 development needs, that can
                 hustle development of websites. It was build in love and with love of many technologies
@@ -159,95 +82,8 @@
         </div>
     </div>
 </div>
-<div class="b-outro">
-    <div class="row">
-        <div class="sixteen column">
-            <div class="inner">
-                <div class="row">
-                    <div class="one-third column">
-                        <h6><strong>Made by ZURB</strong></h6>
 
-                        <p>Foundation is made by <a href="http://www.zurb.com/">ZURB</a>, a product
-                            design company in
-                            Campbell, California. We've put more than 14 years of experience
-                            building web products,
-                            services and websites into this framework.
-                            <a href="../about.php">Foundation Info and Goodies в†’</a>
-                        </p>
-                    </div>
-                    <div class="one-third column">
-                        <h6><strong>Made by ZURB</strong></h6>
+<div class="include" data-include="footer"></div>
 
-                        <p>Foundation is made by <a href="http://www.zurb.com/">ZURB</a>, a product
-                            design company in
-                            Campbell, California. We've put more than 14 years of experience
-                            building web products,
-                            services and websites into this framework.
-                            <a href="../about.php">Foundation Info and Goodies в†’</a>
-                        </p>
-                    </div>
-                    <div class="one-third column">
-                        <h6><strong>Made by ZURB</strong></h6>
-
-                        <p>Foundation is made by <a href="http://www.zurb.com/">ZURB</a>, a product
-                            design company in
-                            Campbell, California. We've put more than 14 years of experience
-                            building web products,
-                            services and websites into this framework.
-                            <a href="../about.php">Foundation Info and Goodies в†’</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 </body>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-3323346-9', 'auto');
-    ga('send', 'pageview');
-
-</script>
-
-<script type="text/javascript"> (function (d, w, c) {
-    (w[c] = w[c] || []).push(function () {
-        try {
-            w.yaCounter35444710 = new Ya.Metrika({
-                id: 35444710,
-                clickmap: true,
-                trackLinks: true,
-                accurateTrackBounce: true
-            });
-        } catch (e) {
-        }
-    });
-    var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () {
-        n.parentNode.insertBefore(s, n);
-    };
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = "https://mc.yandex.ru/metrika/watch.js";
-    if (w.opera == "[object Opera]") {
-        d.addEventListener("DOMContentLoaded", f, false);
-    } else {
-        f();
-    }
-})(document, window, "yandex_metrika_callbacks"); </script>
-<noscript>
-    <div><img src="https://mc.yandex.ru/watch/35444710" style="position:absolute; left:-9999px;" alt=""/></div>
-</noscript>
-
-
 </html>
