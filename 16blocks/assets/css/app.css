@@ -16,18 +16,6 @@ body.innerBackground {
 	z-index: 3;
 }
 
-.b-intro:after {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 4;
-	content: '';
-	height: 540px;
-	width: 100%;
-}
-
 .b-intro .welcome {
 	position: absolute;
 	top: 140px;
@@ -36,6 +24,8 @@ body.innerBackground {
 	width: 100%;
 
 	text-align: center;
+
+	pointer-events: none;
 }
 
 .b-intro .welcome .title {
@@ -80,6 +70,10 @@ body.innerBackground {
 
 	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(40%, #000000), color-stop(100%, rgba(0, 0, 0, 0.6)));
 
+}
+
+.b-intro .welcome .btn {
+	pointer-events: all;
 }
 
 .b-social {
