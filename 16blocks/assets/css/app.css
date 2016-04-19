@@ -128,9 +128,9 @@ body.innerBackground {
     text-shadow: 1px 1px 1px #ffffff;
 }
 
-.l-content .section-title {
+.l-inner .section-title {
     width: 100%;
-    font-size: 2.3em;
+    font-size: 2.5em;
     line-height: 1.2142em;
     color: #555555;
 
@@ -141,7 +141,6 @@ body.innerBackground {
     filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#33000000', EndColorStr='#33000000'); /* For IE6,IE7 */
 
     zoom: 1;
-    margin: 0 auto;
     display: inline-block;
     font-weight: bold;
     padding: 5px 20px 15px 0;
@@ -153,9 +152,45 @@ body.innerBackground {
     -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(40%, #000000), color-stop(100%, rgba(0, 0, 0, 0.6)));
 
     text-align: left;
-
+    border-bottom: 1px solid #ccc;
+    margin: 40px 0;
 }
+.row .l-inner h3 {
+    width: 100%;
+    -webkit-box-shadow: 0 0 16px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0 0 16px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 1px #ffffff;
+    line-height: 1.2142em;
+    color: #555555;
 
+    margin: 30px 0;
+    font-size: 2.1em;
+}
+.row .l-inner h4 {
+    width: 100%;
+    -webkit-box-shadow: 0 0 16px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0 0 16px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 1px #ffffff;
+    line-height: 1.2142em;
+    color: #555555;
+
+    margin: 20px 0;
+    font-size: 1.7em;
+}
+.row .l-inner h5 {
+    width: 100%;
+    -webkit-box-shadow: 0 0 16px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0 0 16px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.5);
+    text-shadow: 1px 1px 1px #ffffff;
+    line-height: 1.2142em;
+    color: #555555;
+
+    margin: 10px 0;
+    font-size: 1.3em;
+}
 .l-content .section-text {
     font-size: 1.1em;
     color: #676767;
@@ -312,7 +347,7 @@ body.innerBackground {
 }
 
 .b-section-typography .content {
-    padding: 20px;
+    padding: 0 20px;
 
 }
 
@@ -766,10 +801,6 @@ figure.highlight {
     margin-bottom: 10px;
 }
 
-.content h2.section-title {
-    border-bottom: 1px solid #ccc;
-    margin: 20px 0;
-}
 
 .light-green {
     background-color: #3bba60;

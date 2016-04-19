@@ -1885,9 +1885,11 @@ blockquote cite a:visited {
     text-transform: uppercase;
     color: #008cba;
 }
+
 .current {
     font-weight: bold;
 }
+
 .breadcrumbs.alternate > li + li::before,
 .breadcrumbs.divider > li + li::before {
     color: #aeaeae;
@@ -1902,25 +1904,31 @@ blockquote cite a:visited {
     font-size: 18px;
     margin: 0 4px;
 }
+
 .small a,
 .small li {
     font-size: 11px;
 }
+
 .breadcrumbs.alternate.small > li + li::before {
     font-size: 15px;
 }
+
 .big a,
 .big li {
     font-size: 17px;
 }
+
 .breadcrumbs.alternate.big > li + li::before {
     font-size: 21px;
 }
+
 /*------------- PAGINATION */
 
 .pagination {
     display: inline-block;
     padding-left: 0;
+    margin: 10px 0;
 }
 
 .pagination > li {
@@ -1972,8 +1980,47 @@ blockquote cite a:visited {
     background-color: transparent;
 }
 
-.form-control[disabled], fieldset[disabled] .form-control {
+.form-control[disabled],
+fieldset[disabled] .form-control {
     cursor: not-allowed;
+}
+
+.pagination.pagination-sm li a {
+    font-size: 9px;
+}
+
+.pagination.pagination-lg li a {
+    font-size: 19px;
+}
+
+.pager {
+    padding-left: 0;
+    margin: 20px 0;
+    text-align: center;
+    list-style: none;
+}
+
+.pager li {
+    display: inline;
+}
+
+.pager li > a,
+.pager li > span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+.pager .previous>a,
+.pager .previous>span {
+    float: left;
+    margin-bottom: 20px;
+}
+.pager .next>a,
+.pager .next>span {
+    float: right;
+    margin-bottom: 20px;
 }
 
 /*------------- BADGES */
