@@ -49,18 +49,18 @@ a img {
 }
 
 a {
-    color: #2ba6cb;
+    color: #2c773b;
     text-decoration: none;
     line-height: inherit;
 }
 
 a:hover {
-    color: #2795b6;
+    color: #2d6a35;
     outline: 0;
 }
 
 a:focus {
-    color: #2795b6;
+    color: #2c6a35;
 }
 
 div, span, header, footer, aside, nav, menu, section,
@@ -805,7 +805,7 @@ img, object, embed {
 }
 
 .nav .menu-heading a {
-    color: #367036;
+    color: #000000;
     border-bottom: 1px solid #dfdfdf;
     text-decoration: none;
     white-space: nowrap;
@@ -1045,7 +1045,7 @@ img, object, embed {
     left: 100%;
     top: auto;
     bottom: 0;
-    background: #333333;
+    background: #ededed;
     z-index: 5;
     visibility: hidden;
 }
@@ -1091,7 +1091,7 @@ img, object, embed {
 
 .nav .nav-form {
     line-height: 39px;
-    margin: 0 10px;
+    margin: 5px;
 }
 
 .nav .nav-form .form-group {
@@ -1106,9 +1106,9 @@ img, object, embed {
 
 .nav .nav-form .form-control {
     display: inline-block;
-    color: #ffffff;
-    background-color: #515151;
-    border-color: #111111;
+    color: #2c6a35;
+    background-color: #6d6d6d;
+    border-color: #7c7c7c;
     -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
     -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
@@ -1123,10 +1123,9 @@ img, object, embed {
     color: #ffffff;
     padding-right: 5px;
 }
-
 .nav .navbar-text {
     color: white;
-    padding: 10px;
+    padding: 13px;
 }
 
 .nav .nav-form .btn-icon {

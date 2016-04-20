@@ -625,6 +625,7 @@ body.innerBackground {
     background-color: rgb(50, 124, 50);
     background: linear-gradient(to bottom, rgb(50, 124, 50) 0%, rgb(54, 112, 54) 100%);
     background-repeat: repeat-x;
+    padding: 50px;
 }
 
 .hero-image .title {
@@ -637,19 +638,17 @@ body.innerBackground {
     zoom: 1;
     font-weight: bold;
     color: #ffffff;
-    padding: 50px 20px 5px 20px;
     -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(40%, #000000), color-stop(100%, rgba(0, 0, 0, 0.6)));
 }
 
 .hero-image p {
     font-size: 1.5em;
     display: inline-block;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
     text-shadow: 1px 1px 1px #000000;
     background: transparent;
     color: #ffffff;
     opacity: 0.5;
-    padding: 30px 20px 50px;
 }
 
 .section-delimitter .content .l-inner .bs-callout-info {
@@ -662,8 +661,7 @@ body.innerBackground {
 }
 
 .l-inner > .row ol,
-.l-inner > .row dl,
-.l-inner > .row ul {
+.l-inner > .row dl {
     padding-left: 20px;
 }
 
@@ -866,4 +864,11 @@ figure.highlight {
 }
 .row.centering > .column.centered.medium-green {
     margin-bottom: 10px;
+}
+.nav-example .nav {
+    background-color: #e3e3e3;
+    margin-bottom: 10px;
+}
+.nav-vertical .menu-heading {
+    border-bottom: 1px solid #c8c8c8;
 }
