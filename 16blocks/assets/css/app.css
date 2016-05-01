@@ -149,7 +149,7 @@ body.innerBackground {
     -moz-box-shadow: 0 0 16px rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 16px rgba(255, 255, 255, 0.5);
 
-    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(40%, #000000), color-stop(100%, rgba(0, 0, 0, 0.6)));
+    /*-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(40%, #000000), color-stop(100%, rgba(0, 0, 0, 0.6)));*/
 
     text-align: left;
     border-bottom: 1px solid #ccc;
@@ -623,7 +623,7 @@ body.innerBackground {
 
 .hero-image {
     background-color: rgb(50, 124, 50);
-    background: linear-gradient(to bottom, rgb(50, 124, 50) 0%, rgb(54, 112, 54) 100%);
+    background-image: radial-gradient(at bottom,#062706 10%,#327c32);
     background-repeat: repeat-x;
     padding: 50px;
 }
@@ -648,7 +648,7 @@ body.innerBackground {
     text-shadow: 1px 1px 1px #000000;
     background: transparent;
     color: #ffffff;
-    opacity: 0.5;
+    opacity: 0.85;
 }
 
 .section-delimitter .content .l-inner .bs-callout-info {
