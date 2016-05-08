@@ -1853,6 +1853,15 @@ blockquote cite a,
 blockquote cite a:visited {
     color: #555555;
 }
+blockquote.pullquote {
+    margin: 35px 0;
+    padding-left: 50px;
+    border-left: none;
+}
+strong.markup-pullquote-strong {
+    font-style: italic;
+    font-size: 18px;
+}
 
 /*        _  _ _    ____ _    ____ _  _ ____ _  _ ___ ____       */
 /*        |  | |    |___ |    |___ |\/| |___ |\ |  |  [__        */

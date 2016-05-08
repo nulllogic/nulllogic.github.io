@@ -636,6 +636,7 @@ body.innerBackground {
     text-shadow: 1px 1px 1px #000000;
     background: transparent;
     zoom: 1;
+    line-height: 70px;
     font-weight: bold;
     color: #ffffff;
     -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(40%, #000000), color-stop(100%, rgba(0, 0, 0, 0.6)));
