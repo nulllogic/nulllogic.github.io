@@ -270,3 +270,9 @@
 	}); // end of document ready
 
 })(jQuery); // end of jQuery name space
+
+jQuery(document).on('ready', function() {
+	hljs.initHighlightingOnLoad({
+		tabReplace: '  ' // 4 spaces
+	});
+});
