@@ -571,7 +571,7 @@ img, object, embed {
 
 /* Small devices */
 @media (min-width: 544px) {
-	.sm1, .sm2, .sm3, .sm4, .sm5, .sm6, .sm7, .sm8, .sm9, .sm0, .sm1, .sm2, .sm3, .sm14, .sm15, .sm16, .sm-one-third {
+	.sm1, .sm2, .sm3, .sm4, .sm5, .sm6, .sm7, .sm8, .sm9, .sm10, .sm11, .sm12, .sm13, .sm14, .sm15, .sm16, .sm-one-third {
 		float: left;
 	}
 
@@ -646,7 +646,7 @@ img, object, embed {
 
 /* Medium devices */
 @media (min-width: 768px) {
-	.md1, .md2, .md3, .md4, .md5, .md6, .md7, .md8, .md9, .md0, .md1, .md2, .md3, .md14, .md15, .md16, .md-one-third {
+	.md1, .md2, .md3, .md4, .md5, .md6, .md7, .md8, .md9, .md10, .md11, .md12, .md13, .md14, .md15, .md16, .md-one-third {
 		float: left;
 	}
 
