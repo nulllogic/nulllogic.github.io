@@ -546,22 +546,22 @@ img, object, embed {
 }
 
 .row .xs12 {
-	width: 68.75%;
-}
-
-.row .xs13 {
 	width: 75%;
 }
 
-.row .xs14 {
+.row .xs13 {
 	width: 81.25%;
 }
 
-.row .xs15 {
-	width: 88%;
+.row .xs14 {
+	width: 87.5%;
 }
 
-.row .xs16 {
+.row .xs15 {
+	width: 93.75%;
+}
+
+.row .lg16 {
 	width: 100%;
 }
 
@@ -620,19 +620,19 @@ img, object, embed {
 	}
 
 	.row .sm12 {
-		width: 68.75%;
-	}
-
-	.row .sm13 {
 		width: 75%;
 	}
 
-	.row .sm14 {
+	.row .sm13 {
 		width: 81.25%;
 	}
 
+	.row .sm14 {
+		width: 87.5%;
+	}
+
 	.row .sm15 {
-		width: 88%;
+		width: 93.75%;
 	}
 
 	.row .sm16 {
@@ -695,19 +695,19 @@ img, object, embed {
 	}
 
 	.row .md12 {
-		width: 68.75%;
-	}
-
-	.row .md13 {
 		width: 75%;
 	}
 
-	.row .md14 {
+	.row .md13 {
 		width: 81.25%;
 	}
 
+	.row .md14 {
+		width: 87.5%;
+	}
+
 	.row .md15 {
-		width: 88%;
+		width: 93.75%;
 	}
 
 	.row .md16 {
@@ -770,19 +770,19 @@ img, object, embed {
 	}
 
 	.row .lg12 {
-		width: 68.75%;
-	}
-
-	.row .lg13 {
 		width: 75%;
 	}
 
-	.row .lg14 {
+	.row .lg13 {
 		width: 81.25%;
 	}
 
+	.row .lg14 {
+		width: 87.5%;
+	}
+
 	.row .lg15 {
-		width: 88%;
+		width: 93.75%;
 	}
 
 	.row .lg16 {
@@ -845,19 +845,19 @@ img, object, embed {
 	}
 
 	.row .xl12 {
-		width: 68.75%;
-	}
-
-	.row .xl13 {
 		width: 75%;
 	}
 
-	.row .xl14 {
+	.row .xl13 {
 		width: 81.25%;
 	}
 
+	.row .xl14 {
+		width: 87.5%;
+	}
+
 	.row .xl15 {
-		width: 88%;
+		width: 93.75%;
 	}
 
 	.row .xl16 {
@@ -915,7 +915,7 @@ img, object, embed {
 }
 
 .nav.nav-horizontal .row > ul > li > a {
-	padding: 15px 20px;
+	padding: 15px;
 	color: #367036;
 	font-size: 16px;
 }
@@ -991,11 +991,18 @@ img, object, embed {
 }
 
 .nav.nav-horizontal ul > li.has-dropdown ul {
-	background: #fffeff;
+	background: #f8f8f8;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid rgba(0,0,0,.15);
+	/* border-radius: 4px; */
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	border-top: none;
 }
 
 .nav.nav-horizontal ul > li.has-dropdown ul li {
-	background: #fffeff;
+
 }
 
 .nav.nav-horizontal ul > li.has-dropdown ul li a {
