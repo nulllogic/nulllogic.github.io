@@ -23,51 +23,45 @@
 	<script src="./assets/js/highlight.pack.js"></script>
 	<script src="./assets/js/app.js"></script>
 
+
 </head>
 <body>
+
 <div class="include" data-include="header"></div>
 <div class="hero-image">
 	<div class="container">
 		<div class="row">
-			<h1 class="title">Badges</h1>
+			<h1 class="title">Message</h1>
 		</div>
 	</div>
 </div>
-<div class="b-section-badges">
+<div class="b-section-message">
+
 	<div class="row even">
 		<div class="sixteen column sub-section">
 			<div class="l-inner">
 				<div class="row">
 					<div class="sixteen column">
 						<h2 class="section-title">The Basics</h2>
-						<p>Easily highlight new or unread items by adding a &lt;span class="badge"&gt; to links.</p>
-						<div class="nav">
-							<div class="row">
-								<a href="#">Inbox
-									<span class="badge">42</span>
-								</a> <br> <br>
-								<button class="btn btn-primary" type="button"> Messages <span class="badge">4</span>
-								</button>
+						<div class="row message">
+							<div class="header">
+								Changes in Service
+							</div>
+							<div class="body">
+								We just updated our privacy policy here to better service our customers. We recommend
+								reviewing the changes.
 							</div>
 						</div>
-						<h2 class="section-title">Self collapsing</h2>
-						<p>When there are no new or unread items, badges will simply collapse (via CSS's :empty
-							selector) provided no content exists within. Badges won't self collapse in Internet Explorer
-							8 because it lacks support for the :empty selector. </p>
-						<h2 class="section-title">Adapts to active nav states</h2>
-						<p>Built-in styles are included for placing badges in active states in pill navigations.</p>
-						<div class="nav nav-horizontal">
-							<div class="row">
-								<ul role="tablist">
-									<li class="active">
-										<a href="#">Home <span class="badge">42</span></a>
-									</li>
-									<li>
-										<a href="#">Profile</a>
-									</li>
-									<li>
-										<a href="#">Messages <span class="badge">3</span></a>
-									</li>
+						<h2 class="section-title">List Message</h2>
+						<p>A message with a list</p>
+						<div class="row message">
+							<div class="header">
+								New Site Features
+							</div>
+							<div class="body">
+								<ul class="list">
+									<li>You can now have cover images on blog pages</li>
+									<li>Drafts will now auto-save while writing</li>
 								</ul>
 							</div>
 						</div>
