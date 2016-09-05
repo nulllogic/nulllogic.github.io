@@ -607,7 +607,7 @@ img, object, embed {
 		width: 50%;
 	}
 
-	.row .xs9 {
+	.row .sm9 {
 		width: 56.25%;
 	}
 
@@ -3078,7 +3078,7 @@ button.close {
 	color: rgba(0, 0, 0, .80);
 	background: #f8f8f9;
 	box-shadow: 0 0 0 1px rgba(34, 36, 38, .22) inset,
-				0 0 0 0 transparent;
+	0 0 0 0 transparent;
 }
 
 .message .header {
@@ -3090,7 +3090,7 @@ button.close {
 	margin-top: 0.25em;
 }
 
-.message .list:not(.ui) {
+.message .list {
 	text-align: left;
 	padding: 0;
 	opacity: .85;
@@ -3098,3 +3098,36 @@ button.close {
 	margin: 0.5em 0 0;
 }
 
+.message .close {
+	margin-top: 5px;
+}
+
+.compact.message {
+	display: inline-block;
+}
+
+.compact.message p,
+.attached.message .header p {
+	margin: 0;
+}
+
+.attached.segment {
+	border-left: 1px solid #d4d4d5;
+	border-right: 1px solid #d4d4d5;
+	padding: 1em;
+}
+
+.message.attached .icon-info {
+	font-weight: 800;
+	margin-right: 10px;
+}
+
+.attached.warning.message,
+.warning.message {
+	box-shadow: 0 0 0 1px #c9ba9b inset;
+}
+
+.warning.message {
+	background-color: #fffaf3;
+	color: #573a08;
+}
