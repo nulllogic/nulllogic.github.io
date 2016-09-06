@@ -2229,7 +2229,6 @@ fieldset[disabled] .form-control {
 .dimmer {
 
 	background: rgba(0, 0, 0, 0.85);
-	opacity: 1;
 
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
@@ -2250,19 +2249,16 @@ fieldset[disabled] .form-control {
 	height: 100%;
 
 	overflow: hidden;
-
+	display: block;
+	opacity: 1;
 }
 
 .dimmed {
 	overflow: hidden;
 }
 
-.inverted.dimmer {
-	background: rgba(255, 255, 255, .85);
-}
-
 .dimmer > * {
-	opacity: 0.25;
+	opacity: 0.75;
 	transform: rotate(360deg); /* я его рот ебал этот firefox */
 	backface-visibility: hidden;
 }
@@ -2316,7 +2312,7 @@ fieldset[disabled] .form-control {
 	-webkit-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
 	border-radius: 50px;
-	border-color: #aaaaaa transparent transparent;
+	border-color: #ffffff transparent transparent;
 	border-style: solid;
 	border-width: 0.2em;
 	box-shadow: 0 0 0 1px transparent;
@@ -2329,8 +2325,12 @@ fieldset[disabled] .form-control {
 	margin: 0 0 0 -1.12925em;
 }
 
+.dimmer .loader:before {
+	border-color: rgba(255, 255, 255, .15);
+}
+
 .loader:after {
-	margin-top: -16px !important;
+	margin-top: -15px !important;
 }
 
 .loader-small:before,
@@ -2341,7 +2341,20 @@ fieldset[disabled] .form-control {
 }
 
 .loader-small:after {
-	margin-top: -9px !important;
+	margin-top: -6px !important;
+}
+
+.sizes .segment .dimmer .loader-small.text {
+	font-size: 10px;
+	padding-top: 40px;
+}
+
+.sizes .segment .dimmer .loader-large.text {
+	padding-top: 105px;
+}
+
+.sizes .segment .dimmer .loader-large.text span {
+	font-size: 25px;
 }
 
 .loader-large:before,
@@ -2355,43 +2368,111 @@ fieldset[disabled] .form-control {
 	margin-top: -32px !important;
 }
 
+.segment .active.dimmer {
+	background-color: inherit;
+}
+
 /* Black Dimmer */
-.dimmer.loader > * {
+.dimmer .loader > * {
 	color: #ffffff;
 }
 
-.dimmer.loader:before,
-.dimmer.loader-small:before,
-.dimmer.loader-large:before {
+.dimmer .loader:before,
+.dimmer .loader-small:before,
+.dimmer .loader-large:before {
 	border-color: rgba(255, 255, 255, 0.15);
 }
 
-.dimmer.loader:after,
-.dimmer.loader-small:after,
-.dimmer.loader-large:after {
+.dimmer .loader:after,
+.dimmer .loader-small:after,
+.dimmer .loader-large:after {
 	border-color: #ffffff transparent transparent;
 }
 
 /* White Dimmer (Inverted) */
 
-.inverted.dimmer.loader > * {
+.inverted.dimmer .loader > * {
 	color: #000000;
 }
 
-.inverted.dimmer.loader {
+.inverted.dimmer .loader {
 	color: rgba(0, 0, 0, 0.8);
 }
 
-.inverted.dimmer.loader:before,
-.inverted.dimmer.loader-small:before,
-.inverted.dimmer.loader-large:before {
+.inverted.dimmer .loader:before,
+.inverted.dimmer .loader-small:before,
+.inverted.dimmer .loader-large:before {
 	border-color: rgba(0, 0, 0, 0.1);
 }
 
-.inverted.dimmer.loader:after,
-.inverted.dimmer.loader-small:after,
-.inverted.dimmer.loader-large:after {
-	border-color: #aaaaaa transparent transparent;
+.inverted.dimmer .loader:after,
+.inverted.dimmer .loader-small:after,
+.inverted.dimmer .loader-large:after {
+	border-color: #5f5f5f transparent transparent;
+}
+
+.inverted.dimmer {
+	background-color: rgba(255, 255, 255, .85);
+}
+
+.inverted-block {
+	box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
+	border: 1px solid rgba(34, 36, 38, 0.15);
+}
+
+/* Loader */
+
+.row .l-inner .row.segment {
+	position: relative;
+	padding: 35px;
+	margin-top: 25px;
+}
+
+.segment .dimmer {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.dimmer .loader {
+	display: block;
+	color: rgba(255, 255, 255, .9);
+}
+
+.inverted.dimmer .loader {
+	width: 2.28571429rem;
+	height: 2.28571429rem;
+	font-size: 1em;
+}
+
+.loader {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+	text-align: center;
+	z-index: 1000;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.text.loader {
+	width: auto !important;
+	height: auto !important;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.dimmer.indeterminate .loader:after {
+	-webkit-animation-direction: reverse;
+	animation-direction: reverse;
+	-webkit-animation-duration: 1.2s;
+	animation-duration: 1.2s;
+}
+
+.segment .dimmer .disabled {
+	display: none;
 }
 
 /* animation */
@@ -3131,3 +3212,8 @@ button.close {
 	background-color: #fffaf3;
 	color: #573a08;
 }
+
+/* Loader */
+
+
+
