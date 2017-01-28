@@ -877,3 +877,48 @@ figure.highlight {
 .nav-vertical .menu-heading {
 	border-bottom: 1px solid #c8c8c8;
 }
+
+/*  ICON-DECORATION */
+
+.basic-icons .icon-list {
+	padding-left: 0;
+	list-style: none;
+}
+
+.basic-icons .icon-list li {
+	float: left;
+	width: 15%;
+	height: 115px;
+	padding: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-size: 10px;
+	line-height: 1.4;
+	text-align: center;
+	background-color: #f9f9f9;
+	border: 1px solid #fff;
+}
+
+.basic-icons .icon-list .icon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	/*font-family: 'Glyphicons Halflings';*/
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 24px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.basic-icons .icon-class {
+	display: block;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+
+
