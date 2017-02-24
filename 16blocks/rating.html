@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="./assets/css/16blocks.css"/>
 	<link rel="stylesheet" href="./assets/css/vendor/hljs/vs.css"/>
 	<link rel="stylesheet" href="./assets/css/app.css"/>
+	<link rel="stylesheet" href="./assets/css/font-awesome.min.css"/>
 
 	<script src="./assets/js/jquery-1.12.0.min.js"></script>
 	<script src="./assets/js/jquery.timeago.min.js"></script>
@@ -34,13 +35,73 @@
 		</div>
 	</div>
 </div>
-<div class="b-section-load">
+<div class="b-section-rating container">
 	<div class="row even">
-		<div class="sixteen column sub-section">
+		<div class="xs16 column sub-section">
 			<div class="l-inner">
-				<div class="sixteen column">
-					<h2 class="section-title">The Basics</h2>
-					<p>A basic rating</p>
+				<h2 class="section-title">The Basics</h2>
+				<p>A basic rating</p>
+				<div class="stars">
+					<form action="">
+						<input class="star star-5" id="star-5" type="radio" name="star"/>
+						<label class="star fa-star-o star-5" for="star-5"></label>
+						<input class="star star-4" id="star-4" type="radio" name="star"/>
+						<label class="star fa-star-o star-4" for="star-4"></label>
+						<input class="star star-3" id="star-3" type="radio" name="star"/>
+						<label class="star fa-star-o star-3" for="star-3"></label>
+						<input class="star star-2" id="star-2" type="radio" name="star"/>
+						<label class="star fa-star-o star-2" for="star-2"></label>
+						<input class="star star-1" id="star-1" type="radio" name="star"/>
+						<label class="star fa-star-o star-1" for="star-1"></label>
+					</form>
+				</div>
+				<h2 class="section-title">Size</h2>
+				<p>Rating can have different sizes</p>
+				<h4>Small size</h4>
+				<div class="stars rating-small">
+					<form action="">
+						<input class="star star-5" id="star-5-3" type="radio" name="star"/>
+						<label class="star fa-star-o star-5" for="star-5-3"></label>
+						<input class="star star-4" id="star-4-3" type="radio" name="star"/>
+						<label class="star fa-star-o star-4" for="star-4-3"></label>
+						<input class="star star-3" id="star-3-3" type="radio" name="star"/>
+						<label class="star fa-star-o star-3" for="star-3-3"></label>
+						<input class="star star-2" id="star-2-3" type="radio" name="star"/>
+						<label class="star fa-star-o star-2" for="star-2-3"></label>
+						<input class="star star-1" id="star-1-3" type="radio" name="star"/>
+						<label class="star fa-star-o star-1" for="star-1-3"></label>
+					</form>
+				</div>
+				<h4>Normal size</h4>
+				<div class="stars">
+					<form action="">
+						<input class="star star-5" id="star-5-4" type="radio" name="star"/>
+						<label class="star fa-star-o star-5" for="star-5-4"></label>
+						<input class="star star-4" id="star-4-4" type="radio" name="star"/>
+						<label class="star fa-star-o star-4" for="star-4-4"></label>
+						<input class="star star-3" id="star-3-4" type="radio" name="star"/>
+						<label class="star fa-star-o star-3" for="star-3-4"></label>
+						<input class="star star-2" id="star-2-4" type="radio" name="star"/>
+						<label class="star fa-star-o star-2" for="star-2-4"></label>
+						<input class="star star-1" id="star-1-4" type="radio" name="star"/>
+						<label class="star fa-star-o star-1" for="star-1-4"></label>
+
+					</form>
+				</div>
+				<h4>Big size</h4>
+				<div class="stars rating-big">
+					<form action="">
+						<input class="star star-5" id="star-5-5" type="radio" name="star"/>
+						<label class="star fa-star-o star-5" for="star-5-5"></label>
+						<input class="star star-4" id="star-4-5" type="radio" name="star"/>
+						<label class="star fa-star-o star-4" for="star-4-5"></label>
+						<input class="star star-3" id="star-3-5" type="radio" name="star"/>
+						<label class="star fa-star-o star-3" for="star-3-5"></label>
+						<input class="star star-2" id="star-2-5" type="radio" name="star"/>
+						<label class="star fa-star-o star-2" for="star-2-5"></label>
+						<input class="star star-1" id="star-1-5" type="radio" name="star"/>
+						<label class="star fa-star-o star-1" for="star-1-5"></label>
+					</form>
 				</div>
 			</div>
 		</div>

@@ -35,104 +35,99 @@
 		</div>
 	</div>
 </div>
-<div class="b-section-message">
-
+<div class="b-section-message container">
 	<div class="row even">
-		<div class="sixteen column sub-section">
+		<div class="xs16 column sub-section">
 			<div class="l-inner">
+				<h2 class="section-title">The Basics</h2>
+				<div class="row message">
+					<div class="header">
+						Changes in Service
+					</div>
+					<div class="body">
+						We just updated our privacy policy here to better service our customers. We recommend
+						reviewing the changes.
+					</div>
+				</div>
+				<h2 class="section-title">List Message</h2>
+				<p>A message with a list</p>
+				<div class="row message">
+					<div class="header">
+						New Site Features
+					</div>
+					<div class="body">
+						<ul class="list">
+							<li>You can now have cover images on blog pages</li>
+							<li>Drafts will now auto-save while writing</li>
+						</ul>
+					</div>
+				</div>
+				<h2 class="section-title">Dismissable Block</h2>
+				<p>A message that the user can choose to hide</p>
+				<div class="row message">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<div class="header">
+						Welcome back!
+					</div>
+					<div class="body">
+						This is a special notification which you can dismiss if you're bored with it.
+					</div>
+				</div>
+				<h2 class="section-title">Compact</h2>
+				<p>A message can only take up the width of its content.</p>
+				<div class="row compact message">
+					<p>Get all the best inventions in your e-mail every day. Sign up now!</p>
+				</div>
+				<h2 class="section-title">Attached</h2>
+				<p>A message can be formatted to attach itself to other content</p>
 				<div class="row">
-					<div class="sixteen column">
-						<h2 class="section-title">The Basics</h2>
-						<div class="row message">
-							<div class="header">
-								Changes in Service
-							</div>
-							<div class="body">
-								We just updated our privacy policy here to better service our customers. We recommend
-								reviewing the changes.
-							</div>
+					<div class="attached message">
+						<div class="header">
+							Welcome to our site!
+							<p>Fill out the form below to sign-up for a new account</p>
 						</div>
-						<h2 class="section-title">List Message</h2>
-						<p>A message with a list</p>
-						<div class="row message">
-							<div class="header">
-								New Site Features
-							</div>
-							<div class="body">
-								<ul class="list">
-									<li>You can now have cover images on blog pages</li>
-									<li>Drafts will now auto-save while writing</li>
-								</ul>
-							</div>
-						</div>
-						<h2 class="section-title">Dismissable Block</h2>
-						<p>A message that the user can choose to hide</p>
-						<div class="row message">
-							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-							<div class="header">
-								Welcome back!
-							</div>
-							<div class="body">
-								This is a special notification which you can dismiss if you're bored with it.
-							</div>
-						</div>
-						<h2 class="section-title">Compact</h2>
-						<p>A message can only take up the width of its content.</p>
-						<div class="row compact message">
-							<p>Get all the best inventions in your e-mail every day. Sign up now!</p>
-						</div>
-						<h2 class="section-title">Attached</h2>
-						<p>A message can be formatted to attach itself to other content</p>
-						<div class="row">
-							<div class="attached message">
-								<div class="header">
-									Welcome to our site!
-									<p>Fill out the form below to sign-up for a new account</p>
+					</div>
+					<div class="body">
+						<form class="form attached fluid segment">
+							<div class="form-group">
+								<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+
+								<div class="col-sm-10">
+									<input type="email" class="form-control" id="inputEmail3"
+									       placeholder="Email">
 								</div>
 							</div>
-							<div class="body">
-								<form class="form attached fluid segment">
-									<div class="form-group">
-										<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+							<div class="form-group">
+								<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
 
-										<div class="col-sm-10">
-											<input type="email" class="form-control" id="inputEmail3"
-											       placeholder="Email">
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-
-										<div class="col-sm-10">
-											<input type="password" class="form-control" id="inputPassword3"
-											       placeholder="Password">
-										</div>
-									</div>
-									<div class="form-group">
-										<div class="col-sm-offset-2 col-sm-10">
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"> Remember me
-												</label>
-											</div>
-										</div>
-									</div>
-									<div class="form-group">
-										<div class="col-sm-offset-2 col-sm-10">
-											<button type="submit" class="btn btn-default">Sign in
-											</button>
-										</div>
-									</div>
-								</form>
-							</div>
-							<div class="footer-info">
-								<div class="ui bottom attached warning message">
-									<span class="icon-info">?</span>Already signed up? <a href="#">Login here</a>
-									instead.
+								<div class="col-sm-10">
+									<input type="password" class="form-control" id="inputPassword3"
+									       placeholder="Password">
 								</div>
 							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<div class="checkbox">
+										<label>
+											<input type="checkbox"> Remember me
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<button type="submit" class="btn btn-default">Sign in
+									</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="footer-info">
+						<div class="ui bottom attached warning message">
+							<span class="icon-info">?</span>Already signed up? <a href="#">Login here</a>
+							instead.
 						</div>
 					</div>
 				</div>

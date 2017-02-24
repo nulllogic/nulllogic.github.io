@@ -887,31 +887,30 @@ figure.highlight {
 
 .basic-icons .icon-list li {
 	float: left;
-	width: 15%;
-	height: 115px;
-	padding: 10px;
-	margin-right: 10px;
-	margin-bottom: 10px;
+	width: 8%;
+	min-height: 87px;
+	padding: 10px 10px 15px 10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
 	font-size: 10px;
 	line-height: 1.4;
 	text-align: center;
 	background-color: #f9f9f9;
-	border: 1px solid #fff;
 }
 
-.basic-icons .icon-list .icon {
-	position: relative;
-	top: 1px;
-	display: inline-block;
-	/*font-family: 'Glyphicons Halflings';*/
+.basic-icons .icon-list li:hover {
+	background-color: #327c32;
+	color: #ffffff;
+	transition: 500ms ease;
+}
+
+.basic-icons .icon-list .fa {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 1;
 	margin-top: 5px;
 	margin-bottom: 10px;
 	font-size: 24px;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 
 .basic-icons .icon-class {
