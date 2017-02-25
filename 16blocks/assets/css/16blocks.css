@@ -3270,10 +3270,16 @@ label.star:before {
 	display: block;
 }
 
-.step .icon {
+.step .icon,
+.step .number {
 	display: inline-block;
 	margin-right: 10px;
 	float: left;
+}
+
+.step .number {
+	font-size: 30px;
+	font-weight: bold;
 }
 
 .step .icon .fa {
@@ -3284,21 +3290,13 @@ label.star:before {
 	font-size: 16px;
 }
 
+.step a {
+	color: #222222;
+}
+
 .wizard .step .desc {
 	font-size: 13px;
 	color: #aaaaaa;
-}
-
-.step.active {
-	background-color: #f1f1f1;
-}
-
-.wizard .step.active .title {
-	color: #0077dd;
-}
-
-.wizard .step.active .desc {
-	color: #555555;
 }
 
 .wizard:not(.wizard-vertical) .step:not(:last-child):before,
@@ -3324,7 +3322,7 @@ label.star:before {
 }
 
 .wizard:not(.wizard-vertical) .active.step:not(:last-child):after {
-	border-left-color: #ededed;
+	border-left-color: #f1f1f1;
 }
 
 .wizard:not(.wizard-vertical) .active.step:not(:last-child):before {
@@ -3334,5 +3332,89 @@ label.star:before {
 .wizard:not(.wizard-vertical) .step:not(:first-child) {
 	border-right: 1px solid #ededed;
 }
+
+.step.active {
+	background-color: #f1f1f1;
+}
+
+.step.complete {
+	background-color: #fafafa;
+}
+
+.wizard:not(.wizard-vertical) .step.complete:not(:last-child):after {
+	border-color: transparent transparent transparent #fafafa;
+}
+
+.wizard .step.active .title,
+.step.complete .icon,
+.step.active .icon {
+	color: #2c773b;
+}
+
+.wizard .step.active .desc {
+	color: #555555;
+}
+
+.step.active:hover {
+	background-color: #f1f1f1;
+}
+
+.step:hover {
+	background-color: #fafafa;
+}
+
+.step:hover .title {
+	color: #2c773b;
+}
+
+.wizard:not(.wizard-vertical) .step:not(.active):hover:after {
+	border-color: transparent transparent transparent #fafafa;
+}
+
+/* wizard-vertical */
+
+.wizard-vertical {
+	flex-direction: column;
+}
+
+.wizard-vertical .step.active:before {
+	content: '';
+	width: 0;
+	height: 0;
+	top: 12px;
+	right: -15px;
+	border-style: solid;
+	position: absolute;
+	border-width: 23px 8px;
+}
+
+.wizard-vertical .step.active:before {
+	border-color: transparent transparent transparent #f1f1f1;
+}
+
+.wizard-vertical {
+	border: none;
+	border-radius: 4px;
+}
+
+.wizard-vertical li:not(.active):first-child,
+.wizard-vertical li:not(.active):last-child {
+	border: 1px solid #e6e6e6;
+}
+
+.wizard-vertical li:not(.active):nth-child(n) {
+	border-left: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+}
+
+.wizard-vertical li.active {
+	border-left: 1px solid #e6e6e6;
+}
+
+.wizard-vertical li:not(:nth-child(2)) {
+	border-top: 1px solid #e6e6e6;
+}
+
+
 
 
