@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="./assets/css/16blocks.css"/>
 	<link rel="stylesheet" href="./assets/css/vendor/hljs/vs.css"/>
 	<link rel="stylesheet" href="./assets/css/app.css"/>
+	<link rel="stylesheet" href="./assets/css/font-awesome.min.css"/>
 
 	<script src="./assets/js/jquery-1.12.0.min.js"></script>
 	<script src="./assets/js/jquery.timeago.min.js"></script>
@@ -28,61 +29,78 @@
 <body>
 
 <div class="include" data-include="header"></div>
+
+<!--MAIN TITLE OF PAGE-->
+
 <div class="hero-image">
 	<div class="container">
 		<div class="row">
-			<h1 class="title">Tabs</h1>
+			<div class="xs16">
+				<h1 class="title">Tabs</h1>
+			</div>
 		</div>
 	</div>
 </div>
-<div class="b-section-tabs container">
-	<div class="row even">
-		<div class="xs16 column sub-section">
-			<div class="l-inner">
 
-				<h2 class="section-title">The Basics</h2>
-				<p>Note the .nav-tabs class requires the .nav base class.</p>
-				<div class="row">
-					<ul class="nav nav-tabs">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#">Profile</a></li>
-						<li><a href="#">Messages</a></li>
-					</ul>
-				</div>
-				<h2 class="section-title">Pills</h2>
-				<p>Take that same HTML, but use .nav-pills instead:</p>
-				<div class="row">
-					<ul class="nav nav-pills">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#">Profile</a></li>
-						<li><a href="#">Messages</a></li>
-					</ul>
-				</div>
-				<br>
-				<p>Pills are also vertically stackable. Just add .nav-stacked.</p>
-				<div class="row">
-					<ul class="nav nav-pills nav-stacked nav-pills-stacked-example">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#">Profile</a></li>
-						<li><a href="#">Messages</a></li>
-					</ul>
-				</div>
-				<h2 class="section-title">Justified</h2>
-				<p>Easily make tabs or pills equal widths of their parent at screens wider than 768px with
-					.nav-justified. On smaller screens, the nav links are stacked.</p>
-				<div class="row">
-					<ul class="nav nav-tabs">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#">Profile</a></li>
-						<li><a href="#">Messages</a></li>
-					</ul>
-					<br><br>
-					<ul class="nav nav-pills nav-justified">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#">Profile</a></li>
-						<li><a href="#">Messages</a></li>
-					</ul>
-				</div>
+<div class="b-section-tabs container">
+	<div class="row">
+		<div class="xs16">
+			<h2 class="section-title">The Basics</h2>
+			<p>Note the .nav-tabs class requires the .nav base class.</p>
+
+			<!--TABS-->
+
+			<div class="row">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Profile</a></li>
+					<li><a href="#">Messages</a></li>
+				</ul>
+			</div>
+
+			<h2 class="section-title">Pills</h2>
+			<p>Take that same HTML, but use .nav-pills instead:</p>
+
+			<!--PILLS-->
+
+			<div class="row">
+				<ul class="nav nav-pills">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Profile</a></li>
+					<li><a href="#">Messages</a></li>
+				</ul>
+			</div>
+
+			<p>Pills are also vertically stackable. Just add .nav-stacked.</p>
+
+			<!--VERTICAL PILLS-->
+
+			<div class="row">
+				<ul class="nav nav-pills nav-stacked">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Profile</a></li>
+					<li><a href="#">Messages</a></li>
+				</ul>
+			</div>
+
+			<h2 class="section-title">Justified</h2>
+			<p>Easily make tabs or pills equal widths of their parent at screens wider than 768px with
+				.nav-justified. On smaller screens, the nav links are stacked.</p>
+
+			<!--JUSTIFIED-->
+
+			<div class="row">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Profile</a></li>
+					<li><a href="#">Messages</a></li>
+				</ul>
+				<br><br>
+				<ul class="nav nav-pills nav-justified">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Profile</a></li>
+					<li><a href="#">Messages</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>

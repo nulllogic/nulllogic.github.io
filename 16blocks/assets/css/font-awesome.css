@@ -1944,7 +1944,7 @@
 .fa-odnoklassniki:before {
   content: "\f263";
 }
-.fa-odnoklassniki-square:before {
+.fa-odnoklassniki2:before {
   content: "\f264";
 }
 .fa-get-pocket:before {
@@ -2119,7 +2119,7 @@
 .fa-braille:before {
   content: "\f2a1";
 }
-.fa-assistive-listening-systems:before {
+.fa-listening-systems:before {
   content: "\f2a2";
 }
 .fa-asl-interpreting:before,
