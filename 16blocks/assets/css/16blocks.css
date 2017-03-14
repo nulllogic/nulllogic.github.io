@@ -2754,16 +2754,16 @@ fieldset[disabled] .form-control {
 	margin-top: -6px !important;
 }
 
-.sizes .segment .dimmer .loader-small.text {
+.segment .dimmer .loader-small.text {
 	font-size: 10px;
 	padding-top: 40px;
 }
 
-.sizes .segment .dimmer .loader-large.text {
+.segment .dimmer .loader-large.text {
 	padding-top: 105px;
 }
 
-.sizes .segment .dimmer .loader-large.text span {
+.segment .dimmer .loader-large.text span {
 	font-size: 25px;
 }
 
@@ -3928,6 +3928,29 @@ label.star:before {
 .wizard-vertical li:not(:nth-child(2)) {
 	border-top: 1px solid #e6e6e6;
 }
+
+
+/*  FLEXBOX RULES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

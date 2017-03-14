@@ -253,10 +253,6 @@ body.innerBackground {
 	margin: 0 auto;
 }
 
-.b-section-grid .nesting .row {
-	margin: 0 25px;
-}
-
 .b-section-grid .nesting .column .column {
 	border: 1px dashed #cccccc;
 }
