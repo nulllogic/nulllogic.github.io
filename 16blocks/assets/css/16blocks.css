@@ -1694,7 +1694,7 @@ img, object, embed {
         display: inline-block;
     }
 
-    .mobile-megamenu {
+    .nav > .mobile-megamenu {
         display: none;
     }
 
