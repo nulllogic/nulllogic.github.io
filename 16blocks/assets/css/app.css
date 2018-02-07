@@ -219,6 +219,15 @@ body.innerBackground {
 	z-index: 11;
 }
 
+div.nav-example:last-of-type .nav-vertical {
+	background: #ffffff;
+
+	box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+
+	border: 1px solid rgba(0, 0, 0, .15);
+}
+
 /* GRID examples */
 
 .b-section-grid .column {
@@ -609,7 +618,7 @@ body.innerBackground {
 
 .hero-image {
 	background-color: rgb(50, 124, 50);
-	background-image: radial-gradient(at bottom, #062706 10%, #327c32);
+	background-image: radial-gradient(at left, #062706 10%, #327c32);
 	background-repeat: repeat-x;
 	padding: 50px;
 }
