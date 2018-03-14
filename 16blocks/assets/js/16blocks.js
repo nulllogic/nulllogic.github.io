@@ -1,20 +1,22 @@
-jQuery(document).ready(function () {
-    var nav = jQuery('.nav'),
-        hamburger = jQuery('.hamburger');
+$(document).ready(function () {
+	var nav = $('.nav'),
+		hamburger = $('.hamburger');
 
 
-    hamburger.click(function (e) {
-        e.preventDefault();
-        var _nav = jQuery(this).closest('.nav');
+	jQuery(document).on('click', '.hamburger', function (e) {
+		e.preventDefault();
+		var _nav = $(this).closest('.nav');
 
-        if (_nav.hasClass('menu-opened')) {
-            _nav.removeClass('menu-opened');
-            jQuery(this).removeClass('is-active');
-        } else {
-            _nav.addClass('menu-opened');
-            jQuery(this).addClass('is-active');
-        }
-    });
+		if (_nav.hasClass('menu-opened')) {
+			_nav.removeClass('menu-opened');
+			$(this).removeClass('is-active');
+		} else {
+			_nav.addClass('menu-opened');
+			$(this).addClass('is-active');
+		}
+	});
+
+
 });
 
 
