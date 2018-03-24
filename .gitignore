@@ -1,2 +1,16 @@
-./idea/
-.idea
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+.idea/misc.xml
+.idea/modules.xml
+.idea/nulllogic.github.io.iml
+.idea/vcs.xml
+.idea/workspace.xml
