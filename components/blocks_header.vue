@@ -44,17 +44,17 @@
 
             <ul class="dropdown">
               <li>
-                <a href="./grid.html" class="">Grid</a>
+                <a href="/16blocks/grid" class="">Grid</a>
               </li>
               <li>
-                <a href="./typography.html">Typography</a>
+                <a href="/16blocks/typography">Typography</a>
               </li>
               <li>
-                <a href="./form.html">Form</a>
+                <a href="/16blocks/form">Form</a>
               </li>
               <li class="divider"></li>
-              <li><a href="./tables.html">Tables</a></li>
-              <li><a href="./flex.html">Flex</a></li>
+              <li><a href="/16blocks/tables">Tables</a></li>
+              <li><a href="/16blocks/flex">Flex</a></li>
             </ul>
           </li>
 
@@ -66,10 +66,10 @@
 
             <ul class="dropdown">
               <li>
-                <a href="./nav.html">Navigation</a>
+                <a href="/16blocks/nav">Navigation</a>
               </li>
               <li>
-                <a href="./uielements.html">Ul elements</a>
+                <a href="/16blocks/uielements">Ul elements</a>
               </li>
               <li class="divider"></li>
               <li><a href="./breadcrumb.html">Breadcrumb</a></li>
