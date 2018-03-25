@@ -1,1130 +1,148 @@
 <template>
   <div>
     <blocksheader></blocksheader>
+    <!--MAIN TITLE OF PAGE-->
+
     <div class="hero-image">
       <div class="container">
         <div class="row">
           <div class="xs16">
-            <h1 class="title">Navigation</h1>
+            <h1 class="title">Breadcrumbs</h1>
+            <p>Breadcrumbs are a good way to display your active location. This is usually used when you have
+              multiple layers of content.</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="b-section-menu container l-inner">
+    <div class="b-section-breadcrumb container l-inner">
       <div class="row">
         <div class="xs16">
-          <h2 class="section-title">The Basics</h2>
-          <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
-            column; column create the actual structure. For layouts to work properly, always put your page content
-            inside a row and a column.</p>
-          <p>What you need to know is that <strong>column doesn't have a fixed width.</strong> They can vary based on
-            the resolution of the screen, or the size of the window (try scaling down this window to see what we
-            mean). Design with that in mind.</p>
-          <h2 class="section-title">Horizontal menu</h2>
-          <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
-            column; column create the actual structure. For layouts to work properly, always put your page content
-            inside a row and a column.</p>
+          <h2 class="section-title">Types</h2>
+          <p>A standard breadcrumb</p>
+
+          <!--BASIC BREADCRUMBS-->
+
+          <ul class="breadcrumbs">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Store</a>
+            </li>
+            <li class="active">T-Shirt</li>
+          </ul>
+          <ul class="breadcrumbs alternate">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">Store</a>
+            </li>
+            <li class="active">T-Shirt</li>
+          </ul>
+
+          <h2 class="section-title">Content</h2>
+          <h3>Divider</h3>
+          <p>A breadcrumb can contain a divider to show the relationship between sections, this can be formatted
+            as an icon or text.</p>
+
+          <!--BREADCRUMBS WITH DIVIDER-->
+
+          <ul class="breadcrumbs">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Registration</a>
+            </li>
+            <li class="active">Personal Information</li>
+          </ul>
+
+          <ul class="breadcrumbs divider">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Registration</a>
+            </li>
+            <li class="active">Personal Information</li>
+          </ul>
+
+          <h3>Section</h3>
+          <p>A breadcrumb can contain sections that can either be formatted as a link or text</p>
+
+          <!--BREADCRUMB SECTION-->
+
+          <ul class="breadcrumbs">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li class="active">Search</li>
+          </ul>
+
+          <h3>Link</h3>
+          <p>A section may be linkable or contain a link</p>
+
+          <!--BREADCRUMB WITH LINK-->
+
+          <ul class="breadcrumbs">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li class="active">Search for:<a href="#">paper towels</a></li>
+          </ul>
+
+          <h2 class="section-title">States</h2>
+          <p>A section can be active</p>
+
+          <!--SECTION WITH STATES-->
+
+          <ul class="breadcrumbs">
+            <li>
+              <a href="#">Products</a>
+            </li>
+            <li class="active">Paper Towels</li>
+          </ul>
+
+          <h2 class="section-title">Variations</h2>
+          <p>A breadcrumb can vary in size</p>
+
+          <!--SIZES BREADCRUMBS-->
+
+          <!--SMALL BREADCRUMBS-->
+          <ul class="breadcrumbs alternate small">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href=""> Registration</a>
+            </li>
+            <li class="active">Personal Information</li>
+          </ul>
+
+          <!--NORMAL BREADCRUMBS-->
+          <ul class="breadcrumbs alternate">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href=""> Registration</a>
+            </li>
+            <li class="active">Personal Information</li>
+          </ul>
+
+          <!--BIG BREADCRUMBS-->
+          <ul class="breadcrumbs alternate big">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href=""> Registration</a>
+            </li>
+            <li class="active">Personal Information</li>
+          </ul>
 
-
-          <!--NAV HORIZONTAL, EXAMPLE ONE-->
-          <div class="nav-example">
-            <div class="row">
-              <ul class="nav nav-horizontal">
-
-                <!-- Nav Hamburger -->
-                <li class="hamburger">
-                  <button>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                  </button>
-                </li>
-                <!-- End Nav Hamburger -->
-
-                <!-- Nav Title -->
-                <li class="nav-logo">
-                  <a href="#">Top Bar Title</a>
-                </li>
-                <!-- End Nav Title -->
-
-                <li class="has-dropdown to-left">
-                  <a class="active" href="#">
-                    Item 1
-                    <i class="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <ul class="dropdown">
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li class="has-dropdown to-left">
-                      <a href="#" class="">Level 1, Has Dropdown</a>
-                      <ul class="dropdown">
-                        <li class="menu-heading">
-                          <a>Section Name</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li class="has-dropdown to-left">
-                          <a href="#">Level 2, Has Dropdown</a>
-                          <ul class="dropdown">
-                            <li class="menu-heading">
-                              <a>Section Name</a>
-                            </li>
-                            <li><a href="#">Level 3</a></li>
-                            <li><a href="#">Level 3</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Level 3</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Level 2</a></li>
-                        <li><a href="#">Level 2</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Level 1</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">Hello</a>
-                </li>
-                <li>
-                  <a href="#">Hello</a>
-                </li>
-
-                <li class="has-dropdown to-left">
-                  <a class="active" href="#">
-                    Item 1
-                    <i class="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <ul class="dropdown">
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li class="has-dropdown to-left">
-                      <a href="#" class="">Level 1, Has Dropdown</a>
-                      <ul class="dropdown">
-                        <li class="menu-heading">
-                          <a>Section Name</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li class="has-dropdown to-left">
-                          <a href="#">Level 2, Has Dropdown</a>
-                          <ul class="dropdown">
-                            <li class="menu-heading">
-                              <a>Section Name</a>
-                            </li>
-                            <li><a href="#">Level 3</a></li>
-                            <li><a href="#">Level 3</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Level 3</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Level 2</a></li>
-                        <li><a href="#">Level 2</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Level 1</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                  </ul>
-                </li>
-              </ul>
-
-            </div>
-          </div>
-          <!--END NAV-HORIZONTAL, EXAMPLE ONE-->
-
-          <figure class="code-example">
-                <pre>
-                    <code>
-
-                    </code>
-                </pre>
-          </figure>
-
-
-          <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
-            column; column create the actual structure. For layouts to work properly, always put your page content
-            inside a row and a column.</p>
-
-          <div class="nav-example">
-
-            <!--NAV HORIZONTAL, EXAMPLE TWO-->
-            <div class="row">
-              <ul class="nav nav-horizontal justify-content-between">
-
-                <!-- Nav Hamburger -->
-                <li class="hamburger">
-                  <button>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                  </button>
-                </li>
-                <!-- End Nav Hamburger -->
-
-                <!-- Nav Title -->
-                <li class="nav-logo">
-                  <a href="#">Top Bar Title</a>
-                </li>
-                <!-- End Nav Title -->
-
-                <li class="has-dropdown to-left">
-                  <a class="active" href="#">
-                    Item 1
-                    <i class="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <ul class="dropdown">
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li class="has-dropdown to-left">
-                      <a href="#" class="">Level 1, Has Dropdown</a>
-                      <ul class="dropdown">
-                        <li class="menu-heading">
-                          <a>Section Name</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li class="has-dropdown to-left">
-                          <a href="#">Level 2, Has Dropdown</a>
-                          <ul class="dropdown">
-                            <li class="menu-heading">
-                              <a>Section Name</a>
-                            </li>
-                            <li><a href="#">Level 3</a></li>
-                            <li><a href="#">Level 3</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Level 3</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Level 2</a></li>
-                        <li><a href="#">Level 2</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Level 1</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">Hello</a>
-                </li>
-                <li>
-                  <a href="#">Hello</a>
-                </li>
-
-                <li class="has-dropdown to-right">
-                  <a class="active" href="#">
-                    Item 1
-                    <i class="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <ul class="dropdown">
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li class="has-dropdown to-right">
-                      <a href="#" class="">Level 1, Has Dropdown</a>
-                      <ul class="dropdown">
-                        <li class="menu-heading">
-                          <a>Section Name</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li class="has-dropdown to-right">
-                          <a href="#">Level 2, Has Dropdown</a>
-                          <ul class="dropdown">
-                            <li class="menu-heading">
-                              <a>Section Name</a>
-                            </li>
-                            <li><a href="#">Level 3</a></li>
-                            <li><a href="#">Level 3</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Level 3</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Level 2</a></li>
-                        <li><a href="#">Level 2</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Level 1</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                  </ul>
-                </li>
-
-                <!--Nav Text-->
-                <li class="nav-text">
-                  <p class="navbar-text">Signed in as Tom White</p>
-                </li>
-                <!-- End Nav Text-->
-
-              </ul>
-
-            </div>
-          </div>
-          <!--END NAV-HORIZONTAL, EXAMPLE TWO-->
-
-          <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
-            column; column create the actual structure. For layouts to work properly, always put your page content
-            inside a row and a column.</p>
-
-          <!--NAV-HORIZONTAL, EXAMPLE THREE-->
-          <div class="nav-example">
-
-            <div class="row">
-              <ul class="nav nav-horizontal justify-content-around">
-
-                <!-- Nav Hamburger -->
-                <li class="hamburger">
-                  <button>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                  </button>
-                </li>
-                <!-- End Nav Hamburger -->
-
-                <!-- Nav Title -->
-                <li class="nav-logo">
-                  <a href="#">Top Bar Title</a>
-                </li>
-                <!-- End Nav Title -->
-
-                <li class="has-dropdown to-left">
-                  <a class="active" href="#">
-                    Item 1
-                    <i class="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <ul class="dropdown">
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li class="has-dropdown to-left">
-                      <a href="#" class="">Level 1, Has Dropdown</a>
-                      <ul class="dropdown">
-                        <li class="menu-heading">
-                          <a>Section Name</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li class="has-dropdown to-left">
-                          <a href="#">Level 2, Has Dropdown</a>
-                          <ul class="dropdown">
-                            <li class="menu-heading">
-                              <a>Section Name</a>
-                            </li>
-                            <li><a href="#">Level 3</a></li>
-                            <li><a href="#">Level 3</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Level 3</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Level 2</a></li>
-                        <li><a href="#">Level 2</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Level 1</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                  </ul>
-                </li>
-
-                <li class="has-dropdown to-right">
-                  <a class="active" href="#">
-                    Item 1
-                    <i class="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <ul class="dropdown">
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li class="has-dropdown to-right">
-                      <a href="#" class="">Level 1, Has Dropdown</a>
-                      <ul class="dropdown">
-                        <li class="menu-heading">
-                          <a>Section Name</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li class="has-dropdown to-right">
-                          <a href="#">Level 2, Has Dropdown</a>
-                          <ul class="dropdown">
-                            <li class="menu-heading">
-                              <a>Section Name</a>
-                            </li>
-                            <li><a href="#">Level 3</a></li>
-                            <li><a href="#">Level 3</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Level 3</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Level 2</a></li>
-                        <li><a href="#">Level 2</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Level 1</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">Hello</a>
-                </li>
-
-                <!-- Form Nav Section -->
-                <li class="nav-form">
-                  <form class="form-group" action="">
-                    <i class="fa fa-search"></i>
-                    <input type="text" class="form-control" placeholder="Search">
-                    <button type="submit" class="btn btn-default">Submit</button>
-                  </form>
-                </li>
-                <!-- End Form Nav Section -->
-
-              </ul>
-            </div>
-          </div>
-          <!-- END NAV-HORIZONTAL, EXAMPLE THREE-->
-
-          <p>The grid is built around two key elements: rows and column.Rows create a max-width and contain the
-            column; column create the actual structure. For layouts to work properly, always put your page content
-            inside a row and a column.</p>
-
-          <!--NAV HORIZONTAL, EXAMPLE FOUR-->
-          <div class="nav-example">
-            <div class="row">
-              <ul class="nav nav-horizontal justify-content-center">
-
-                <!-- Nav Hamburger -->
-                <li class="hamburger">
-                  <button>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                  </button>
-                </li>
-                <!-- End Nav Hamburger -->
-
-                <li class="has-dropdown to-left">
-                  <a class="active" href="#">
-                    Item 1
-                    <i class="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <ul class="dropdown">
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li class="has-dropdown to-left">
-                      <a href="#" class="">Level 1, Has Dropdown</a>
-                      <ul class="dropdown">
-                        <li class="menu-heading">
-                          <a>Section Name</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li class="has-dropdown to-left">
-                          <a href="#">Level 2, Has Dropdown</a>
-                          <ul class="dropdown">
-                            <li class="menu-heading">
-                              <a>Section Name</a>
-                            </li>
-                            <li><a href="#">Level 3</a></li>
-                            <li><a href="#">Level 3</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Level 3</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Level 2</a></li>
-                        <li><a href="#">Level 2</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Level 1</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">Hello</a>
-                </li>
-
-                <!-- Nav Title -->
-                <li class="nav-logo">
-                  <a href="#">Top Bar Title</a>
-                </li>
-                <!-- End Nav Title -->
-
-                <li>
-                  <a href="#">Hello</a>
-                </li>
-
-                <li class="has-dropdown to-right">
-                  <a class="active" href="#">
-                    Item 1
-                    <i class="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <ul class="dropdown">
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li class="has-dropdown to-right">
-                      <a href="#" class="">Level 1, Has Dropdown</a>
-                      <ul class="dropdown">
-                        <li class="menu-heading">
-                          <a>Section Name</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li class="has-dropdown to-right">
-                          <a href="#">Level 2, Has Dropdown</a>
-                          <ul class="dropdown">
-                            <li class="menu-heading">
-                              <a>Section Name</a>
-                            </li>
-                            <li><a href="#">Level 3</a></li>
-                            <li><a href="#">Level 3</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Level 3</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Level 2</a></li>
-                        <li><a href="#">Level 2</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Level 1</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                  </ul>
-                </li>
-
-              </ul>
-
-            </div>
-          </div>
-          <!-- END NAV HORIZONTAL, EXAMPLE FOUR-->
-
-          <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
-            column; column create the actual structure. For layouts to work properly, always put your page content
-            inside a row and a column.</p>
-
-          <!-- NAV HORIZONTAL, EXAMPLE FIVE-->
-          <div class="nav-example">
-            <div class="row">
-              <ul class="nav nav-horizontal justify-content-between">
-
-                <!-- Nav Hamburger -->
-                <li class="hamburger">
-                  <button>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                  </button>
-                </li>
-                <!-- End Nav Hamburger -->
-
-                <li class="nav-group">
-                  <ul>
-                    <li class="has-dropdown to-left">
-                      <a class="active" href="#">
-                        Item 1
-                        <i class="fa fa-caret-down" aria-hidden="true"></i>
-                      </a>
-                      <ul class="dropdown">
-                        <li class="menu-heading">
-                          <a>Section Name</a>
-                        </li>
-                        <li class="has-dropdown to-left">
-                          <a href="#" class="">Level 1, Has Dropdown</a>
-                          <ul class="dropdown">
-                            <li class="menu-heading">
-                              <a>Section Name</a>
-                            </li>
-                            <li>
-                              <a href="#">Level 2</a>
-                            </li>
-                            <li>
-                              <a href="#">Level 2</a>
-                            </li>
-                            <li class="has-dropdown to-left">
-                              <a href="#">Level 2, Has Dropdown</a>
-                              <ul class="dropdown">
-                                <li class="menu-heading">
-                                  <a>Section Name</a>
-                                </li>
-                                <li><a href="#">Level 3</a></li>
-                                <li><a href="#">Level 3</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Level 3</a></li>
-                              </ul>
-                            </li>
-                            <li><a href="#">Level 2</a></li>
-                            <li><a href="#">Level 2</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a href="#">Level 1</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li class="menu-heading">
-                          <a>Section Name</a>
-                        </li>
-                        <li><a href="#">Level 1</a></li>
-                        <li><a href="#">Level 1</a></li>
-                        <li><a href="#">Level 1</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Hello</a>
-                    </li>
-                    <li>
-                      <a href="#">Hello</a>
-                    </li>
-                  </ul>
-                </li>
-
-                <!-- Nav Title -->
-                <li class="nav-logo">
-                  <a href="#">Top Bar Title</a>
-                </li>
-                <!-- End Nav Title -->
-
-                <li class="nav-group">
-                  <ul>
-                    <li class="has-dropdown to-right">
-                      <a class="active" href="#">
-                        Item 1
-                        <i class="fa fa-caret-down" aria-hidden="true"></i>
-                      </a>
-                      <ul class="dropdown">
-                        <li class="menu-heading">
-                          <a>Section Name</a>
-                        </li>
-                        <li class="has-dropdown to-right">
-                          <a href="#" class="">Level 1, Has Dropdown</a>
-                          <ul class="dropdown">
-                            <li class="menu-heading">
-                              <a>Section Name</a>
-                            </li>
-                            <li>
-                              <a href="#">Level 2</a>
-                            </li>
-                            <li>
-                              <a href="#">Level 2</a>
-                            </li>
-                            <li class="has-dropdown to-right">
-                              <a href="#">Level 2, Has Dropdown</a>
-                              <ul class="dropdown">
-                                <li class="menu-heading">
-                                  <a>Section Name</a>
-                                </li>
-                                <li><a href="#">Level 3</a></li>
-                                <li><a href="#">Level 3</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Level 3</a></li>
-                              </ul>
-                            </li>
-                            <li><a href="#">Level 2</a></li>
-                            <li><a href="#">Level 2</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a href="#">Level 1</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li class="menu-heading">
-                          <a>Section Name</a>
-                        </li>
-                        <li><a href="#">Level 1</a></li>
-                        <li><a href="#">Level 1</a></li>
-                        <li><a href="#">Level 1</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Hello</a>
-                    </li>
-                    <li>
-                      <a href="#">Hello</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-
-            </div>
-          </div>
-          <!-- END NAV HORIZONTAL, EXAMPLE FIVE-->
-
-          <h2 class="section-title">Mega-menu</h2>
-          <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
-            column; column create the actual structure. For layouts to work properly, always put your page content
-            inside a row and a column.</p>
-
-          <!-- NAV MEGA-MENU, EXAMPLE ONE-->
-          <div class="nav-example">
-            <div class="row">
-              <ul class="nav nav-horizontal">
-
-                <!-- Nav Hamburger -->
-                <li class="hamburger">
-                  <button>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                  </button>
-                </li>
-                <!-- End Nav Hamburger -->
-
-                <!-- Nav Title -->
-                <li class="nav-logo">
-                  <a href="#">Top Bar Title</a>
-                </li>
-                <!-- End Nav Title -->
-
-                <li class="has-dropdown has-megamenu">
-                  <a href="#" class="active">
-                    Products
-                    <i class="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <div class="dropdown">
-                    <div class="container">
-                      <div class="row megamenu-content">
-                        <div class="sm-one-third">
-                          <div class="row align-items-center">
-                            <div class="xs16">
-                              <a href="/">
-                                <span class="megamenu-title">Plugins for WordPress</span>
-                              </a>
-                            </div>
-                            <div class="xs8">
-                              <img src="http://nulllogic.test/wp-content/themes/nulllogic/assets/img/products/simplefavicon/feature4.png">
-                            </div>
-                            <div class="xs8">
-                              <span class="name-product">Wonderful Favicon</span>
-                              <span class="description-product">This small plugin give your website more individuality.</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="sm-one-third">
-                          <div class="row align-items-center">
-                            <div class="xs16">
-                              <a href="/">
-                                <span class="megamenu-title">Themes for WordPress</span>
-                              </a>
-                            </div>
-                            <div class="xs8">
-                              <img src="http://nulllogic.test/wp-content/themes/nulllogic/assets/img/teaser/mainpage/websites1.png">
-                            </div>
-                            <div class="xs8">
-                              <span class="name-product">Beautiful Support</span>
-                              <span class="description-product">If you need HelpDesk for your website it's a great decision !</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="sm-one-third">
-                          <a href="/">
-                            <div class="row align-items-center">
-                              <div class="xs16">
-                                <span class="megamenu-title">16blocks Framework</span>
-                                <span>
-                                                        Our Framework has simple structure and high quality. You can
-                                                        choose such rules and code as you need. Our Framework has simple
-                                                        structure and high quality. You can choose such rules and code
-                                                        as you need. Our Framework has simple structure and high quality.
-                                                        You can choose such rules and code as you need.
-                                                    </span>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-
-                <li class="has-dropdown mobile-megamenu to-left">
-                  <a class="active" href="#">
-                    Products
-                    <i class="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <ul class="dropdown">
-                    <li><a href="#" class="">Plugins for WordPress</a></li>
-                    <li><a href="#">Themes for WordPress</a></li>
-                    <li><a href="#">16blocks Framework</a></li>
-                  </ul>
-                </li>
-
-                <li>
-                  <a href="#">Hello</a>
-                </li>
-                <li>
-                  <a href="#">Hello</a>
-                </li>
-
-                <li class="has-dropdown to-right">
-                  <a class="active" href="#">
-                    Item 1
-                    <i class="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <ul class="dropdown">
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li class="has-dropdown to-right">
-                      <a href="#" class="">Level 1, Has Dropdown</a>
-                      <ul class="dropdown">
-                        <li class="menu-heading">
-                          <a>Section Name</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li class="has-dropdown to-right">
-                          <a href="#">Level 2, Has Dropdown</a>
-                          <ul class="dropdown">
-                            <li class="menu-heading">
-                              <a>Section Name</a>
-                            </li>
-                            <li><a href="#">Level 3</a></li>
-                            <li><a href="#">Level 3</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Level 3</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Level 2</a></li>
-                        <li><a href="#">Level 2</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Level 1</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li class="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                  </ul>
-                </li>
-
-              </ul>
-
-            </div>
-          </div>
-          <!-- END NAV MEGA-MENU, EXAMPLE ONE-->
-
-          <h2 class="section-title">Veritical menu</h2>
-          <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
-            column; column create the actual structure. For layouts to work properly, always put your page content
-            inside a row and a column.</p>
-
-
-          <div class="nav-example">
-            <div class="row justify-content-between">
-
-              <!--NAV VERTICAL, EXAMPLE ONE-->
-              <div class="xs16 sm7 md4">
-                <ul class="nav nav-vertical">
-
-                  <!--NAV TITLE-->
-                  <li class="nav-logo">
-                    <a href="#">Top Bar Title</a>
-                  </li>
-
-                  <!--NAV ITEMS-->
-                  <li>
-                    <a href="#">Action</a>
-                  </li>
-                  <li class="has-dropdown to-right">
-                    <a href="#">
-                      Has dropdown
-                      <i class="fa fa-caret-right" aria-hidden="true"></i>
-                    </a>
-                    <ul class="dropdown">
-                      <li>
-                        <a href="#">Item 1</a>
-                      </li>
-                      <li>
-                        <a href="#">Item 1</a>
-                      </li>
-                      <li class="menu-heading">
-                        <a href="#">Section name</a>
-                      </li>
-                      <li class="divider"></li>
-                      <li>
-                        <a href="#">Item 1</a>
-                      </li>
-                      <li>
-                        <a href="#">Item 1</a>
-                      </li>
-                      <li class="has-dropdown to-right">
-                        <a href="#">Has dropdown</a>
-                        <ul class="dropdown">
-                          <li>
-                            <a href="#">Item 2</a>
-                          </li>
-                          <li>
-                            <a href="#">Item 2</a>
-                          </li>
-                          <li>
-                            <a href="#">Item 2</a>
-                          </li>
-                          <li>
-                            <a href="#">Item 2</a>
-                          </li>
-                          <li>
-                            <a href="#">Item 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#">Action</a>
-                  </li>
-                  <li>
-                    <a href="#">Action</a>
-                  </li>
-                  <li>
-                    <a href="#">Action</a>
-                  </li>
-                </ul>
-              </div>
-
-              <!--NAV VERTICAL, EXAMPLE TWO-->
-
-              <div class="xs16 sm7 md4">
-                <ul class="nav nav-vertical">
-
-                  <!--NAV TITLE-->
-                  <li class="nav-logo">
-                    <a href="#">Top Bar Title</a>
-                  </li>
-
-                  <!--NAV ITEMS-->
-                  <li>
-                    <a href="#">Action</a>
-                  </li>
-                  <li class="has-dropdown to-right">
-                    <a href="#">
-                      Has dropdown
-                      <i class="fa fa-caret-right" aria-hidden="true"></i>
-                    </a>
-                    <ul class="dropdown">
-                      <li>
-                        <a href="#">Item 1</a>
-                      </li>
-                      <li>
-                        <a href="#">Item 1</a>
-                      </li>
-                      <li class="menu-heading">
-                        <a href="#">Section name</a>
-                      </li>
-                      <li class="divider"></li>
-                      <li>
-                        <a href="#">Item 1</a>
-                      </li>
-                      <li>
-                        <a href="#">Item 1</a>
-                      </li>
-                      <li class="has-dropdown to-right">
-                        <a href="#">Has dropdown</a>
-                        <ul class="dropdown">
-                          <li>
-                            <a href="#">Item 2</a>
-                          </li>
-                          <li>
-                            <a href="#">Item 2</a>
-                          </li>
-                          <li>
-                            <a href="#">Item 2</a>
-                          </li>
-                          <li>
-                            <a href="#">Item 2</a>
-                          </li>
-                          <li>
-                            <a href="#">Item 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#">Action</a>
-                  </li>
-                  <li>
-                    <a href="#">Action</a>
-                  </li>
-                  <li>
-                    <a href="#">Action</a>
-                  </li>
-                </ul>
-              </div>
-
-              <!--NAV VERTICAL, EXAMPLE THREE-->
-
-              <div class="xs16 sm7 md4">
-                <ul class="nav nav-vertical">
-
-                  <!--NAV TITLE-->
-                  <li class="nav-logo">
-                    <a href="#">Top Bar Title</a>
-                  </li>
-
-                  <!--NAV ITEMS-->
-                  <li>
-                    <a href="#">Action</a>
-                  </li>
-                  <li class="has-dropdown to-left">
-                    <a href="#">
-                      Has dropdown
-                      <i class="fa fa-caret-right" aria-hidden="true"></i>
-                    </a>
-                    <ul class="dropdown">
-                      <li>
-                        <a href="#">Item 1</a>
-                      </li>
-                      <li>
-                        <a href="#">Item 1</a>
-                      </li>
-                      <li class="menu-heading">
-                        <a href="#">Section name</a>
-                      </li>
-                      <li class="divider"></li>
-                      <li>
-                        <a href="#">Item 1</a>
-                      </li>
-                      <li>
-                        <a href="#">Item 1</a>
-                      </li>
-                      <li class="has-dropdown to-left">
-                        <a href="#">Has dropdown</a>
-                        <ul class="dropdown">
-                          <li>
-                            <a href="#">Item 2</a>
-                          </li>
-                          <li>
-                            <a href="#">Item 2</a>
-                          </li>
-                          <li>
-                            <a href="#">Item 2</a>
-                          </li>
-                          <li>
-                            <a href="#">Item 2</a>
-                          </li>
-                          <li>
-                            <a href="#">Item 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#">Action</a>
-                  </li>
-                  <li>
-                    <a href="#">Action</a>
-                  </li>
-                  <li>
-                    <a href="#">Action</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>

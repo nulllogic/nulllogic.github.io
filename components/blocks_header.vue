@@ -17,7 +17,7 @@
 
           <!-- Nav Title -->
           <li class="name nav-logo">
-            <a href="./index.html" class="title">
+            <a href="/16blocks" class="title">
               16 Blocks
             </a>
           </li>
@@ -72,17 +72,17 @@
                 <a href="/16blocks/uielements">Ul elements</a>
               </li>
               <li class="divider"></li>
-              <li><a href="./breadcrumb.html">Breadcrumb</a></li>
-              <li><a href="./pagination.html">Pagination</a></li>
-              <li><a href="./badges.html">Badges</a></li>
-              <li><a href="./alerts.html">Alerts</a></li>
-              <li><a href="./tabs.html">Tabs</a></li>
-              <li><a href="./load.html">Loader</a></li>
-              <li><a href="./message.html">Message</a></li>
-              <li><a href="./rating.html">Rating</a></li>
-              <li><a href="./icon.html">Icon</a></li>
-              <li><a href="./list-group.html">List group</a></li>
-              <li><a href="./wizards.html">Wizards</a></li>
+              <li><a href="/16blocks/breadcrumb">Breadcrumb</a></li>
+              <li><a href="/16blocks/pagination">Pagination</a></li>
+              <li><a href="/16blocks/badges">Badges</a></li>
+              <li><a href="/16blocks/alerts">Alerts</a></li>
+              <li><a href="/16blocks/tabs">Tabs</a></li>
+              <li><a href="/16blocks/load">Loader</a></li>
+              <li><a href="/16blocks/message">Message</a></li>
+              <li><a href="/16blocks/rating">Rating</a></li>
+              <li><a href="/16blocks/icon">Icon</a></li>
+              <li><a href="/16blocks/list-group">List group</a></li>
+              <li><a href="/16blocks/wizards">Wizards</a></li>
             </ul>
           </li>
 
