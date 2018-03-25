@@ -128,8 +128,8 @@
 
           <div>
             <ul class="pager">
-              <li class="previous unavailable"><a>&#8592Older</a></li>
-              <li class="next"><a href="#">Newer&#8594</a></li>
+              <li class="previous unavailable"><a>&#8592; Older</a></li>
+              <li class="next"><a href="#">Newer &#8594;</a></li>
             </ul>
           </div>
         </div>
