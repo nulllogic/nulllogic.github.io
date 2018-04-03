@@ -3,10 +3,10 @@
     <div class="row">
       <div class="xs16">
 
-        <ul class="nav nav-horizontal main-nav">
+        <ul class="nav nav-horizontal main-nav" :class="{'opened' : opened}">
 
           <!-- Nav Hamburger -->
-          <li class="hamburger">
+          <li class="hamburger" @click="open_mobile" :class="{'is-active' : opened}">
             <button>
               <span class="line"></span>
               <span class="line"></span>
@@ -80,7 +80,6 @@
               <li><a href="/16blocks/load">Loader</a></li>
               <li><a href="/16blocks/message">Message</a></li>
               <li><a href="/16blocks/rating">Rating</a></li>
-              <li><a href="/16blocks/icon">Icon</a></li>
               <li><a href="/16blocks/list-group">List group</a></li>
               <li><a href="/16blocks/wizards">Wizards</a></li>
             </ul>
@@ -134,7 +133,14 @@
             "rate": 4.5,
             "count_rate": 348
           }
-        ]
+        ],
+        opened: false,
+
+      }
+    },
+    methods: {
+      open_mobile: function() {
+        this.opened = this.opened ? false : true;
       }
     }
   }

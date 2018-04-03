@@ -1494,9 +1494,9 @@ img, object, embed {
 	-ms-flex: auto;
 	flex: auto;
 
-	-webkit-box-align: baseline;
-	-ms-flex-align: baseline;
-	align-items: baseline;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 .nav-horizontal .nav-group:hover,

@@ -231,10 +231,6 @@ body.innerBackground {
 	color: #2e692e;
 }
 
-.nav-form .btn {
-	margin: 0;
-}
-
 .nav .dropdown {
 	z-index: 11;
 }
@@ -801,46 +797,7 @@ figure.highlight {
 	border: 1px solid #c8c8c8;
 }
 
-/*  ICON-DECORATION */
 
-.basic-icons .icon-list {
-	padding-left: 0;
-	list-style: none;
-}
-
-.basic-icons .icon-list li {
-	float: left;
-	width: 8%;
-	min-height: 87px;
-	padding: 10px 10px 15px 10px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	font-size: 10px;
-	line-height: 1.4;
-	text-align: center;
-	background-color: #f9f9f9;
-}
-
-.basic-icons .icon-list li:hover {
-	background-color: #327c32;
-	color: #ffffff;
-	transition: 500ms ease;
-}
-
-.basic-icons .icon-list .fa {
-	font-style: normal;
-	font-weight: 400;
-	line-height: 1;
-	margin-top: 5px;
-	margin-bottom: 10px;
-	font-size: 24px;
-}
-
-.basic-icons .icon-class {
-	display: block;
-	text-align: center;
-	word-wrap: break-word;
-}
 
 /* alerts */
 

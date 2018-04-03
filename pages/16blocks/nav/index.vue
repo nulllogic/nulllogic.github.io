@@ -172,9 +172,146 @@
             column; column create the actual structure. For layouts to work properly, always put your page content
             inside a row and a column.</p>
 
+
+          <!--NAV HORIZONTAL, EXAMPLE TWO-->
+          <div class="nav-example">
+            <div class="row">
+              <ul class="nav nav-horizontal">
+
+                <!-- Nav Hamburger -->
+                <li class="hamburger">
+                  <button>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                  </button>
+                </li>
+                <!-- End Nav Hamburger -->
+
+                <!-- Nav Title -->
+                <li class="nav-logo">
+                  <a href="#">Top Bar Title</a>
+                </li>
+                <!-- End Nav Title -->
+
+                <li class="has-dropdown to-left">
+                  <a class="active" href="#">
+                    Item 1
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                  </a>
+                  <ul class="dropdown">
+                    <li class="menu-heading">
+                      <a>Section Name</a>
+                    </li>
+                    <li class="has-dropdown to-left">
+                      <a href="#" class="">Level 1, Has Dropdown</a>
+                      <ul class="dropdown">
+                        <li class="menu-heading">
+                          <a>Section Name</a>
+                        </li>
+                        <li>
+                          <a href="#">Level 2</a>
+                        </li>
+                        <li>
+                          <a href="#">Level 2</a>
+                        </li>
+                        <li class="has-dropdown to-left">
+                          <a href="#">Level 2, Has Dropdown</a>
+                          <ul class="dropdown">
+                            <li class="menu-heading">
+                              <a>Section Name</a>
+                            </li>
+                            <li><a href="#">Level 3</a></li>
+                            <li><a href="#">Level 3</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Level 3</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Level 2</a></li>
+                        <li><a href="#">Level 2</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Level 1</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="menu-heading">
+                      <a>Section Name</a>
+                    </li>
+                    <li><a href="#">Level 1</a></li>
+                    <li><a href="#">Level 1</a></li>
+                    <li><a href="#">Level 1</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Hello</a>
+                </li>
+                <li>
+                  <a href="#">Hello</a>
+                </li>
+
+                <li class="has-dropdown to-right pull-right">
+                  <a class="active" href="#">
+                    Item 1
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                  </a>
+                  <ul class="dropdown">
+                    <li class="menu-heading">
+                      <a>Section Name</a>
+                    </li>
+                    <li class="has-dropdown to-right">
+                      <a href="#" class="">Level 1, Has Dropdown</a>
+                      <ul class="dropdown">
+                        <li class="menu-heading">
+                          <a>Section Name</a>
+                        </li>
+                        <li>
+                          <a href="#">Level 2</a>
+                        </li>
+                        <li>
+                          <a href="#">Level 2</a>
+                        </li>
+                        <li class="has-dropdown to-right">
+                          <a href="#">Level 2, Has Dropdown</a>
+                          <ul class="dropdown">
+                            <li class="menu-heading">
+                              <a>Section Name</a>
+                            </li>
+                            <li><a href="#">Level 3</a></li>
+                            <li><a href="#">Level 3</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Level 3</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Level 2</a></li>
+                        <li><a href="#">Level 2</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Level 1</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="menu-heading">
+                      <a>Section Name</a>
+                    </li>
+                    <li><a href="#">Level 1</a></li>
+                    <li><a href="#">Level 1</a></li>
+                    <li><a href="#">Level 1</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+          <!--END NAV-HORIZONTAL, EXAMPLE TWO-->
+
+          <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
+            column; column create the actual structure. For layouts to work properly, always put your page content
+            inside a row and a column.</p>
+
           <div class="nav-example">
 
-            <!--NAV HORIZONTAL, EXAMPLE TWO-->
+            <!--NAV HORIZONTAL, EXAMPLE THREE-->
             <div class="row">
               <ul class="nav nav-horizontal justify-content-between">
 
@@ -310,13 +447,13 @@
 
             </div>
           </div>
-          <!--END NAV-HORIZONTAL, EXAMPLE TWO-->
+          <!--END NAV-HORIZONTAL, EXAMPLE THREE-->
 
           <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
             column; column create the actual structure. For layouts to work properly, always put your page content
             inside a row and a column.</p>
 
-          <!--NAV-HORIZONTAL, EXAMPLE THREE-->
+          <!--NAV-HORIZONTAL, EXAMPLE FOUR-->
           <div class="nav-example">
 
             <div class="row">
@@ -454,13 +591,13 @@
               </ul>
             </div>
           </div>
-          <!-- END NAV-HORIZONTAL, EXAMPLE THREE-->
+          <!-- END NAV-HORIZONTAL, EXAMPLE FOUR-->
 
           <p>The grid is built around two key elements: rows and column.Rows create a max-width and contain the
             column; column create the actual structure. For layouts to work properly, always put your page content
             inside a row and a column.</p>
 
-          <!--NAV HORIZONTAL, EXAMPLE FOUR-->
+          <!--NAV HORIZONTAL, EXAMPLE FIVE-->
           <div class="nav-example">
             <div class="row">
               <ul class="nav nav-horizontal justify-content-center">
@@ -592,13 +729,13 @@
 
             </div>
           </div>
-          <!-- END NAV HORIZONTAL, EXAMPLE FOUR-->
+          <!-- END NAV HORIZONTAL, EXAMPLE FIVE-->
 
           <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
             column; column create the actual structure. For layouts to work properly, always put your page content
             inside a row and a column.</p>
 
-          <!-- NAV HORIZONTAL, EXAMPLE FIVE-->
+          <!-- NAV HORIZONTAL, EXAMPLE SIX-->
           <div class="nav-example">
             <div class="row">
               <ul class="nav nav-horizontal justify-content-between">
@@ -742,7 +879,7 @@
 
             </div>
           </div>
-          <!-- END NAV HORIZONTAL, EXAMPLE FIVE-->
+          <!-- END NAV HORIZONTAL, EXAMPLE SIX-->
 
           <h2 class="section-title">Mega-menu</h2>
           <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
