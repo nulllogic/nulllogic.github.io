@@ -6,7 +6,7 @@
     <div class="hero-image">
       <div class="container">
         <div class="row">
-          <div class="xs16">
+          <div class="xs-16">
             <h1 class="title">Tables</h1>
             <p>Tables are a nice way to organize a lot of data. We provide a few utility classes to help you style
               your table as easily as possible. In addition, to improve mobile experience, all tables on
@@ -18,7 +18,7 @@
 
     <div class="b-section-tables container l-inner">
       <div class="row">
-        <div class="xs16">
+        <div class="xs-16">
           <h2 class="section-title">Basic example</h2>
           <p>For basic styling—light padding and only horizontal dividers—add the base class .table to any &lt;table&gt;.
             It may seem super redundant, but given the widespread use of tables for other plugins like calendars and

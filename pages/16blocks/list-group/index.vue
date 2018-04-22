@@ -6,7 +6,7 @@
     <div class="hero-image">
       <div class="container">
         <div class="row">
-          <div class="xs16">
+          <div class="xs-16">
             <h1 class="title">List group</h1>
           </div>
         </div>
@@ -15,7 +15,7 @@
 
     <div class="b-section-list container">
       <div class="row">
-        <div class="xs16">
+        <div class="xs-16">
           <h2 class="section-title">The Basics</h2>
           <p>The most basic list group is simply an unordered list with list items, and the proper classes. Build
             upon it with the options that follow, or your own CSS as needed.</p>

@@ -4,7 +4,7 @@
     <div class="hero-image">
       <div class="container">
         <div class="row">
-          <div class="xs16">
+          <div class="xs-16">
             <h1 class="title">Navigation</h1>
           </div>
         </div>
@@ -13,7 +13,7 @@
 
     <div class="b-section-menu container l-inner">
       <div class="row">
-        <div class="xs16">
+        <div class="xs-16">
           <h2 class="section-title">The Basics</h2>
           <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
             column; column create the actual structure. For layouts to work properly, always put your page content
@@ -917,15 +917,15 @@
                       <div class="row megamenu-content">
                         <div class="sm-one-third">
                           <div class="row align-items-center">
-                            <div class="xs16">
+                            <div class="xs-16">
                               <a href="/">
                                 <span class="megamenu-title">Plugins for WordPress</span>
                               </a>
                             </div>
-                            <div class="xs8">
+                            <div class="xs-8">
                               <img src="http://nulllogic.test/wp-content/themes/nulllogic/assets/img/products/simplefavicon/feature4.png">
                             </div>
-                            <div class="xs8">
+                            <div class="xs-8">
                               <span class="name-product">Wonderful Favicon</span>
                               <span class="description-product">This small plugin give your website more individuality.</span>
                             </div>
@@ -933,15 +933,15 @@
                         </div>
                         <div class="sm-one-third">
                           <div class="row align-items-center">
-                            <div class="xs16">
+                            <div class="xs-16">
                               <a href="/">
                                 <span class="megamenu-title">Themes for WordPress</span>
                               </a>
                             </div>
-                            <div class="xs8">
+                            <div class="xs-8">
                               <img src="http://nulllogic.test/wp-content/themes/nulllogic/assets/img/teaser/mainpage/websites1.png">
                             </div>
-                            <div class="xs8">
+                            <div class="xs-8">
                               <span class="name-product">Beautiful Support</span>
                               <span class="description-product">If you need HelpDesk for your website it's a great decision !</span>
                             </div>
@@ -950,7 +950,7 @@
                         <div class="sm-one-third">
                           <a href="/">
                             <div class="row align-items-center">
-                              <div class="xs16">
+                              <div class="xs-16">
                                 <span class="megamenu-title">16blocks Framework</span>
                                 <span>
                                                         Our Framework has simple structure and high quality. You can
@@ -1053,7 +1053,7 @@
             <div class="row justify-content-between">
 
               <!--NAV VERTICAL, EXAMPLE ONE-->
-              <div class="xs16 sm7 md4">
+              <div class="xs-16 sm-7 md-4">
                 <ul class="nav nav-vertical">
 
                   <!--NAV TITLE-->
@@ -1123,7 +1123,7 @@
 
               <!--NAV VERTICAL, EXAMPLE TWO-->
 
-              <div class="xs16 sm7 md4">
+              <div class="xs-16 sm-7 md-4">
                 <ul class="nav nav-vertical">
 
                   <!--NAV TITLE-->
@@ -1193,7 +1193,7 @@
 
               <!--NAV VERTICAL, EXAMPLE THREE-->
 
-              <div class="xs16 sm7 md4">
+              <div class="xs-16 sm-7 md-4">
                 <ul class="nav nav-vertical">
 
                   <!--NAV TITLE-->

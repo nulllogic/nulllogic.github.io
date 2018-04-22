@@ -15,7 +15,7 @@
 
     <div class="b-section-message container l-inner">
       <div class="row">
-        <div class="xs16">
+        <div class="xs-16">
           <h2 class="section-title">The Basics</h2>
           <p>dkfvgkgu sgdiu ygkusy ylgsuydf lliugs</p>
 
@@ -79,7 +79,7 @@
 
           <!--MESSAGE IN FORM-->
 
-          <div class="xs10">
+          <div class="xs-10">
 
             <!--MESSAGE IN HEADER-->
             <div class="message">

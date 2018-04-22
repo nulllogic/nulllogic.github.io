@@ -6,7 +6,7 @@
 
       <div class="b-intro" id="intro">
 
-        <div class="xs16 column">
+        <div class="xs-16 column">
           <div class="welcome">
             <h1 class="title">16blocks framework</h1>
             <span class="subtitle">Sexy, simple, sleek tool for developers </span>
@@ -17,7 +17,7 @@
 
       <div class="b-github">
 
-        <div class="column xs16">
+        <div class="column xs-16">
 
           <div class="commit">
             Latest Commit on Github:
@@ -40,7 +40,7 @@
       <!-- WELCOME  -->
 
       <div class="row b-content-introduction">
-        <div class="xs16 column">
+        <div class="xs-16 column">
           <p class="greetings">Welcome to 16Block CSS framework, that will give you most of development needs, that
             can hustle development of websites. It was build in love and with love of many technologies from the
             internet.</p>

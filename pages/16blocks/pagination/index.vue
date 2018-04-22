@@ -6,7 +6,7 @@
     <div class="hero-image">
       <div class="container">
         <div class="row">
-          <div class="xs16">
+          <div class="xs-16">
             <h1 class="title">Pagination</h1>
             <p>Provide pagination links for your site or app with the multi-page pagination component, or the
               simpler
@@ -19,7 +19,7 @@
 
     <div class="b-section-pagination container">
       <div class="row">
-        <div class="xs16">
+        <div class="xs-16">
           <h2 class="section-title">Default pagination</h2>
           <P>Simple pagination inspired by Rdio, great for apps and search results. The large block is hard to
             miss, easily scalable, and provides large click areas.</P>

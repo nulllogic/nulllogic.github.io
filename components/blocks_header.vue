@@ -49,12 +49,14 @@
               <li>
                 <a href="/16blocks/typography">Typography</a>
               </li>
-              <li>
-                <a href="/16blocks/form">Form</a>
-              </li>
               <li class="divider"></li>
+              <li>
+                <a href="/16blocks/form">Forms</a>
+              </li>
               <li><a href="/16blocks/tables">Tables</a></li>
-              <li><a href="/16blocks/flex">Flex</a></li>
+              <li class="divider"></li>
+              <li><a href="/16blocks/buttons">Buttons</a></li>
+              <li><a href="/16blocks/utilities">Responsive utilities</a></li>
             </ul>
           </li>
 
@@ -72,6 +74,7 @@
                 <a href="/16blocks/uielements">Ul elements</a>
               </li>
               <li class="divider"></li>
+              <li><a href="/16blocks/flex">Flex</a></li>
               <li><a href="/16blocks/breadcrumb">Breadcrumb</a></li>
               <li><a href="/16blocks/pagination">Pagination</a></li>
               <li><a href="/16blocks/badges">Badges</a></li>

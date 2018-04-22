@@ -1,12 +1,12 @@
 <template>
   <div>
     <blocksheader></blocksheader>
-    <!--MAIN TITLE OF PAGE-->
 
+    <!--MAIN TITLE OF PAGE-->
     <div class="hero-image">
       <div class="container">
         <div class="row">
-          <div class="xs16">
+          <div class="xs-16">
             <h1 class="title">Typography</h1>
           </div>
         </div>
@@ -15,33 +15,32 @@
 
     <div class="b-section-typography container">
       <div class="row">
-        <div class="xs16">
+        <div class="xs-16">
+
+
+          <!-- HEADER SIZES -->
           <h2 class="section-title">Header sizes</h2>
           <p>All HTML headings, &lt;h1&gt; through &lt;h6&gt;, are available. .h1 through .h6 classes are also
             available, for when you want to match the font styling of a heading but still want your text to be
             displayed inline.</p>
-        </div>
-
-        <!--TYPES OF HEADERS-->
-
-        <!--Basic headers-->
-        <div class="xs8">
-          <h3>Basic Headers</h3>
-          <div class="example">
-            <h1>h1 header</h1>
-            <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
-            <h2>h2 header</h2>
-            <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
-            <h3>h3 header</h3>
-            <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
-            <h4>h4 header</h4>
-            <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
-            <h5>h5 header</h5>
-            <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
-            <h6>h6 header</h6>
-            <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
-          </div>
-          <figure class="highlight">
+          <div class="row">
+            <div class="xs-16 sm-8">
+              <h3>Basic Headers</h3>
+              <div class="example">
+                <h1>h1 header</h1>
+                <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
+                <h2>h2 header</h2>
+                <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
+                <h3>h3 header</h3>
+                <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
+                <h4>h4 header</h4>
+                <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
+                <h5>h5 header</h5>
+                <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
+                <h6>h6 header</h6>
+                <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
+              </div>
+              <figure class="highlight">
 				<pre>
 					<code class="html">
 &lt;h1&gt;h1 header&lt;/h1&gt;
@@ -52,39 +51,37 @@
 &lt;h6&gt;h6 header&lt;/h6&gt;
 					</code>
 				</pre>
-          </figure>
-        </div>
-
-        <!--Headers with small text-->
-        <div class="xs8">
-          <h3>Headers with &lt;small&gt;</h3>
-          <div class="example">
-            <h1>h1 header
-              <small>Small header text.</small>
-            </h1>
-            <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
-            <h2>h2 header
-              <small>Small header text.</small>
-            </h2>
-            <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
-            <h3>h3 header
-              <small>Small header text.</small>
-            </h3>
-            <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
-            <h4>h4 header
-              <small>Small header text.</small>
-            </h4>
-            <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
-            <h5>h5 header
-              <small>Small header text.</small>
-            </h5>
-            <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
-            <h6>h6 header
-              <small>Small header text.</small>
-            </h6>
-            <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
-          </div>
-          <figure class="highlight">
+              </figure>
+            </div>
+            <div class="xs-16 sm-8">
+              <h3>Headers with &lt;small&gt;</h3>
+              <div class="example">
+                <h1>h1 header
+                  <small>Small header text.</small>
+                </h1>
+                <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
+                <h2>h2 header
+                  <small>Small header text.</small>
+                </h2>
+                <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
+                <h3>h3 header
+                  <small>Small header text.</small>
+                </h3>
+                <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
+                <h4>h4 header
+                  <small>Small header text.</small>
+                </h4>
+                <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
+                <h5>h5 header
+                  <small>Small header text.</small>
+                </h5>
+                <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
+                <h6>h6 header
+                  <small>Small header text.</small>
+                </h6>
+                <img src="~/assets/img/short_paragraph.png" class="g-shortparagraph"/>
+              </div>
+              <figure class="highlight">
 				<pre>
 					<code class="html">
 &lt;h1&gt;h1 header&lt;small&gt;Small header text.&lt;/small&gt;&lt;/h1&gt;
@@ -95,55 +92,27 @@
 &lt;h6&gt;h6 header&lt;small&gt;Small header text.&lt;/small&gt;&lt;/h6&gt;
 					</code>
 				</pre>
-          </figure>
-        </div>
-
-        <div class="xs16">
-          <h2 class="section-title">Subheaders</h2>
+              </figure>
+            </div>
+          </div>
 
           <!--SUBHEADERS-->
-
+          <h2 class="section-title">Subheaders</h2>
           <div class="typography">
-            <h1 class="subheader">h1.subheader header</h1>
-            <h2 class="subheader">h2.subheader header</h2>
-            <h3 class="subheader">h3.subheader header</h3>
-            <h4 class="subheader">h4.subheader header</h4>
-            <h5 class="subheader">h5.subheader header</h5>
-            <h6 class="subheader">h6.subheader header</h6>
+            <h1 class="subheader">h1.subheader</h1>
+            <h2 class="subheader">h2.subheader</h2>
+            <h3 class="subheader">h3.subheader</h3>
+            <h4 class="subheader">h4.subheader</h4>
+            <h5 class="subheader">h5.subheader</h5>
+            <h6 class="subheader">h6.subheader</h6>
           </div>
-        </div>
 
-        <div class="xs16">
-          <h2 class="section-title">Paragraphs</h2>
-          <span class="subheader">In Foundation, paragraphs fall within the modular scale. This includes their
-				line-height, giving the page a feeling of harmony as you scroll.</span>
-        </div>
-
-        <!--PARAGRAPHS-->
-
-        <div class="xs6">
-          <p>It's really easy to add emphasis to copy in Foundation. We've implemented some standards
-            like<strong>bold</strong> and <em>italics</em>, as well as, our own nifty styles, such as <code>
-              &lt;code&gt;</code>, <kbd>&lt;kbd&gt;</kbd> and
-            <small>&lt;small&gt;</small>
-          </p>
-        </div>
-        <div class="xs6">
-          <aside>
-            <p>You can also put text into and <strong>&lt;aside&gt;</strong> element to give it some hierarchy on
-              the page. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.
-              Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-          </aside>
-        </div>
-        <div class="xs16">
+          <!-- LINKS -->
           <h2 class="section-title">Links</h2>
-          <span class="subheader">Where would we be without links? Not in hypertext, that's for sure! Ah, nerd humor.
+          <span>Where would we be without links? Not in hypertext, that's for sure! Ah, nerd humor.
 				Anyways. Links are very standard, and the color is preset or controlled via the _settings.scss file as
 				the main color.</span>
           <p>fsdf sdfasdf sfsa f</p>
-
-          <!--HEADER LINKS-->
-
           <div class="typography">
             <h2><a href="#">This is a header link.</a></h2>
             <h3><a href="#">This is a header link.</a></h3>
@@ -152,93 +121,90 @@
             <p><a href="#">This is a standard inline paragraph link.</a></p>
           </div>
 
-        </div>
-        <div class="xs16">
+          <!-- LISTS -->
           <h2 class="section-title">Lists</h2>
-          <span class="subheader">Lists are helpful for, well, lists of things. Foundation 3 uses
+          <span>Lists are helpful for, well, lists of things. Foundation 3 uses
 				<a href="http://necolas.github.com/normalize.css/">Normalize.css</a> so lists won't be reset as they
 				were in previous versions. However, we still provide a few simple affordances for lists.</span>
-        </div>
-
-        <!--TYPES OF LISTS-->
-
-        <div class="xs6">
-          <h4>Ordered Lists</h4>
-          <ol>
-            <li>Ordered List Item 1</li>
-            <li>Ordered List Item 2</li>
-            <li>Ordered List Item 3</li>
-          </ol>
-        </div>
-        <div class="xs10">
-          <h4>Definition Lists</h4>
-          <dl>
-            <dt>Definition Title</dt>
-            <dd>Definition text, you can add as many of these as you need.
-              The line-height matches paragraphs.
-            </dd>
-          </dl>
-        </div>
-        <div class="xs16">
-          <h4>Unordered Lists</h4>
-        </div>
-        <div class="xs5">
-          <h5>ul.disc</h5>
-          <ul class="disc">
-            <li>List item with a much longer description or more content.</li>
-            <li>List item</li>
-            <li>List item
-              <ul>
-                <li>Nested List Item</li>
-                <li>Nested List Item</li>
-                <li>Nested List Item</li>
+          <div class="row">
+            <div class="xs-16 sm-6">
+              <h4>Ordered Lists</h4>
+              <ol>
+                <li>Ordered List Item 1</li>
+                <li>Ordered List Item 2</li>
+                <li>Ordered List Item 3</li>
+              </ol>
+            </div>
+            <div class="xs-16 sm-10">
+              <h4>Definition Lists</h4>
+              <dl>
+                <dt>Definition Title</dt>
+                <dd>Definition text, you can add as many of these as you need.
+                  The line-height matches paragraphs.
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="unordered">
+            <h4>Unordered Lists</h4>
+          </div>
+          <div class="row">
+            <div class="xs-16 sm-5">
+              <h5>ul.disc</h5>
+              <ul class="disc">
+                <li>List item with a much longer description or more content.</li>
+                <li>List item</li>
+                <li>List item
+                  <ul>
+                    <li>Nested List Item</li>
+                    <li>Nested List Item</li>
+                    <li>Nested List Item</li>
+                  </ul>
+                </li>
+                <li>List item</li>
+                <li>List item</li>
+                <li>List item</li>
               </ul>
-            </li>
-            <li>List item</li>
-            <li>List item</li>
-            <li>List item</li>
-          </ul>
-        </div>
-        <div class="xs5">
-          <h5>ul.circle</h5>
-          <ul class="circle">
-            <li>List item with a much longer description or more content.</li>
-            <li>List item</li>
-            <li>List item
-              <ul>
-                <li>Nested List Item</li>
-                <li>Nested List Item</li>
-                <li>Nested List Item</li>
+            </div>
+            <div class="xs-16 sm-5">
+              <h5>ul.circle</h5>
+              <ul class="circle">
+                <li>List item with a much longer description or more content.</li>
+                <li>List item</li>
+                <li>List item
+                  <ul>
+                    <li>Nested List Item</li>
+                    <li>Nested List Item</li>
+                    <li>Nested List Item</li>
+                  </ul>
+                </li>
+                <li>List item</li>
+                <li>List item</li>
+                <li>List item</li>
               </ul>
-            </li>
-            <li>List item</li>
-            <li>List item</li>
-            <li>List item</li>
-          </ul>
-        </div>
-        <div class="xs5">
-          <h5>ul.square</h5>
-          <ul class="square">
-            <li>List item with a much longer description or more content.</li>
-            <li>List item</li>
-            <li>List item
-              <ul>
-                <li>Nested List Item</li>
-                <li>Nested List Item</li>
-                <li>Nested List Item</li>
+            </div>
+            <div class="xs-16 sm-5">
+              <h5>ul.square</h5>
+              <ul class="square">
+                <li>List item with a much longer description or more content.</li>
+                <li>List item</li>
+                <li>List item
+                  <ul>
+                    <li>Nested List Item</li>
+                    <li>Nested List Item</li>
+                    <li>Nested List Item</li>
+                  </ul>
+                </li>
+                <li>List item</li>
+                <li>List item</li>
+                <li>List item</li>
               </ul>
-            </li>
-            <li>List item</li>
-            <li>List item</li>
-            <li>List item</li>
-          </ul>
-        </div>
+            </div>
+          </div>
 
-        <!--BLOCKQUOTES-->
-
-        <div class="xs16">
+          <!-- BLOCKQUOTES -->
           <h2 class="section-title">Blockquotes</h2>
-          <span class="subheader">Sometimes other people say smart things, and you may want to mention that through
+          <span>Sometimes other people say smart things, and you may want to mention that through
                 a blockquote callout. We've got you covered.</span>
           <blockquote>
             <p>
@@ -255,6 +221,32 @@
                     </code>
                 </pre>
           </figure>
+
+          <!-- TRANSFORMATION CLASSES -->
+          <h2 class="section-title">Transformation classes</h2>
+          <span>Sometimes other people say smart things, and you may want to mention that through
+                a blockquote callout. We've got you covered.</span>
+          <div class="transform-example">
+            <span class="uppercase">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+            <span class="capitalize">Excepteur sint occaecat cupidatat non proident</span>
+            <span class="lowercase">Duis aute irure dolor in reprehenderit in voluptate</span>
+          </div>
+
+          <!-- ALIGN CLASSES -->
+          <h2 class="section-title">Align classes</h2>
+          <span>Sometimes other people say smart things, and you may want to mention that through
+                a blockquote callout. We've got you covered.</span>
+          <div class=" row l-inner align-example">
+            <div class="xs-16 sm-one-third">
+              <span class="text-left">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</span>
+            </div>
+            <div class="xs-16 sm-one-third">
+              <span class="text-center">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</span>
+            </div>
+            <div class="xs-16 sm-one-third">
+              <span class="text-right">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

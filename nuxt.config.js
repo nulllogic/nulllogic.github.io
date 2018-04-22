@@ -26,7 +26,8 @@ module.exports = {
    * */
   css: [
     {src: '~/assets/css/16blocks.css'},
-    {src: '~/assets/css/app.css'}
+    {src: '~/assets/css/app.css'},
+    {src: '~/assets/css/font-awesome.css'}
   ],
 
   build: {

@@ -6,7 +6,7 @@
     <div class="hero-image">
       <div class="container">
         <div class="row">
-          <div class="xs16">
+          <div class="xs-16">
             <h1 class="title">Wizard</h1>
           </div>
         </div>
@@ -14,7 +14,7 @@
     </div>
     <div class="b-section-wizard container">
       <div class="row">
-        <div class="xs16">
+        <div class="xs-16">
           <h2 class="section-title">The Basics</h2>
           <p>regfgjklk tyjukyuluilu</p>
 

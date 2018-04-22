@@ -15,7 +15,7 @@
 
     <div class="b-section-rating container">
       <div class="row">
-        <div class="xs16">
+        <div class="xs-16">
           <h2 class="section-title">The Basics</h2>
           <p>A basic rating</p>
 

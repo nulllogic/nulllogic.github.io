@@ -6,7 +6,7 @@
     <div class="hero-image">
       <div class="container">
         <div class="row">
-          <div class="xs16">
+          <div class="xs-16">
             <h1 class="title">Forms</h1>
             <p>Forms are the standard way to receive user inputted data. The transitions and smoothness of these
               elements are very important because of the inherent user interaction associated with forms. We set
@@ -20,7 +20,7 @@
 
     <div class="b-section-forms container">
       <div class="row">
-        <div class="xs16">
+        <div class="xs-16">
           <h2 class="section-title">The Basics</h2>
           <p>Form elements in Foundation 3 are styled based on their type attribute rather than
             <code>.input-text</code> classes, so the Scss/CSS is much simpler.</p>
@@ -31,7 +31,7 @@
           <!--BASICS FORM-->
 
           <form role="form">
-            <fieldset class="xs10">
+            <fieldset class="xs-10">
               <legend class="form-title">Basic form elements</legend>
               <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
@@ -61,7 +61,7 @@
 
           <!--INLINE CHECKBOXES-->
 
-          <fieldset class="xs5">
+          <fieldset class="xs-5">
             <legend class="form-title">Inline checkboxes</legend>
             <label class="checkbox-inline">
               <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
@@ -80,7 +80,7 @@
 
           <!--BASIC SELECT-->
 
-          <fieldset class="xs5">
+          <fieldset class="xs-5">
             <legend class="form-title">Multiply select</legend>
             <label class="sr-only" for="selectBasic"></label>
             <select class="form-control" id="selectBasic">
@@ -117,7 +117,7 @@
           <!--FORM WITH ERROR AND SUCCESS-->
 
           <form role="form">
-            <fieldset class="xs10">
+            <fieldset class="xs-10">
               <legend class="form-title">Errors to input</legend>
               <div class="form-group has-success">
                 <label class="control-label" for="inputSuccess">Input with success</label>
@@ -147,7 +147,7 @@
 
           <!--INLINE FORM-->
 
-          <form class="form-inline xs16" role="form">
+          <form class="form-inline xs-16" role="form">
             <div class="form-group">
               <label class="sr-only" for="exampleInputEmail2">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
@@ -175,7 +175,7 @@
           <!--HORIZONTAL FORM-->
 
           <form class="form-horizontal" role="form">
-            <fieldset class="xs10">
+            <fieldset class="xs-10">
               <legend class="form-title">Horizontal form</legend>
               <div class="form-group">
                 <label for="inputEmail3">Email</label>
@@ -206,7 +206,7 @@
 
           <!--TEXT INPUT-->
 
-          <fieldset class="xs10">
+          <fieldset class="xs-10">
             <legend class="form-title">Text input</legend>
             <input type="text" class="form-control" placeholder="Text input">
           </fieldset>
@@ -216,7 +216,7 @@
 
           <!--TEXTAREA-->
 
-          <fieldset class="xs10">
+          <fieldset class="xs-10">
             <legend class="form-title">Textarea</legend>
             <textarea class="form-control" rows="3" placeholder="Textarea"></textarea>
           </fieldset>
@@ -230,7 +230,7 @@
 
           <!--CHECKBOXES AND RADIOS WITH DEFAULT-->
 
-          <fieldset class="xs10">
+          <fieldset class="xs-10">
             <legend class="form-title">Checkboxes and radios</legend>
             <div class="checkbox">
               <label>
@@ -270,7 +270,7 @@
 
           <!--INLINE CHECKBOXES-->
 
-          <fieldset class="xs5">
+          <fieldset class="xs-5">
             <legend class="form-title">Inline checkboxes</legend>
 
             <label class="checkbox-inline">
@@ -287,7 +287,7 @@
 
           <!--INLINE RADIO-->
 
-          <fieldset class="xs5">
+          <fieldset class="xs-5">
             <legend class="form-title">Inline radios</legend>
             <label class="radio-inline">
               <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
@@ -307,7 +307,7 @@
 
           <!--CHECKBOXES AND RADIO WITHOUT LABEL-->
 
-          <fieldset class="xs5">
+          <fieldset class="xs-5">
             <legend class="form-title">Checkboxes and radios without label</legend>
             <div class="checkbox">
               <label>
@@ -329,7 +329,7 @@
 
           <!--SIMPLE SELECT -->
 
-          <fieldset class="xs5">
+          <fieldset class="xs-5">
             <legend class="form-title">Simple select</legend>
             <label class="sr-only" for="selectSimple"></label>
             <select class="form-control" id="selectSimple">
@@ -347,7 +347,7 @@
 
           <!--INPUT WITH FOCUS -->
 
-          <fieldset class="xs5">
+          <fieldset class="xs-5">
             <legend class="form-title">Focus state</legend>
             <label>
               <input class="form-control" id="focusedInput" type="text" value="Demonstrative focus state">
@@ -360,7 +360,7 @@
 
           <!--INPUT WITH DISABLED -->
 
-          <fieldset class="xs5">
+          <fieldset class="xs-5">
             <legend class="form-title">Disabled state</legend>
             <label>
               <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here…"
@@ -374,7 +374,7 @@
 
             <!--DISABLED FORM-->
 
-          <form class="xs10">
+          <form class="xs-10">
             <fieldset disabled="disabled">
               <div class="form-group">
                 <label for="disabledTextInput">Disabled input</label>
@@ -401,7 +401,7 @@
 
           <!--INPUT READ ONLY-->
 
-          <fieldset class="xs5">
+          <fieldset class="xs-5">
             <legend class="form-title">Read only state</legend>
             <input class="form-control" type="text" placeholder="Readonly input here…" readonly="readonly">
           </fieldset>
@@ -411,7 +411,7 @@
 
           <!--HELP TEXT-->
 
-          <fieldset class="xs5">
+          <fieldset class="xs-5">
             <legend class="form-title">Help text</legend>
             <div class="form-group">
               <label for="inputHelpBlock">Input with help text</label>
@@ -428,7 +428,7 @@
 
           <!--FORM WITH COLOR-->
 
-          <fieldset class="xs10">
+          <fieldset class="xs-10">
             <legend class="form-title">Validation states</legend>
             <div class="form-group has-success">
               <label class="control-label" for="inputSuccess1">Input with success</label>
@@ -473,7 +473,7 @@
 
           <!--FORM WITH ICON-->
 
-          <fieldset class="xs10">
+          <fieldset class="xs-10">
             <legend class="form-title">With optional icons</legend>
             <div class="form-group has-success">
               <label for="inputSuccess2">Input with success</label>
@@ -509,7 +509,7 @@
 
           <!--SIZES INPUT-->
 
-          <fieldset class="xs10">
+          <fieldset class="xs-10">
             <legend class="form-title">Control sizing</legend>
             <div class="controls">
               <input class="form-control input-lg" type="text" placeholder=".input-lg">
@@ -536,7 +536,7 @@
 
           <!--HORIZONTAL FORM-->
 
-          <fieldset class="xs10">
+          <fieldset class="xs-10">
             <legend class="form-title">Horizontal form group sizes</legend>
             <form class="form-horizontal">
               <div class="form-group form-group-lg">
@@ -557,16 +557,16 @@
           <!--INPUT IN ROW-->
 
           <div class="row">
-            <div class="xs2">
-              <input type="text" class="form-control" placeholder="xs2">
+            <div class="xs-2">
+              <input type="text" class="form-control" placeholder="xs-2">
             </div>
-            <div class="xs3">
-              <input type="text" class="form-control" placeholder="xs3">
+            <div class="xs-3">
+              <input type="text" class="form-control" placeholder="xs-3">
             </div>
-            <div class="xs4">
-              <input type="text" class="form-control" placeholder="xs4">
+            <div class="xs-4">
+              <input type="text" class="form-control" placeholder="xs-4">
             </div>
-            <div class="xs6"></div>
+            <div class="xs-6"></div>
           </div>
 
         </div>

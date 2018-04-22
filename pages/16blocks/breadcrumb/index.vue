@@ -6,7 +6,7 @@
     <div class="hero-image">
       <div class="container">
         <div class="row">
-          <div class="xs16">
+          <div class="xs-16">
             <h1 class="title">Breadcrumbs</h1>
             <p>Breadcrumbs are a good way to display your active location. This is usually used when you have
               multiple layers of content.</p>
@@ -17,7 +17,7 @@
 
     <div class="b-section-breadcrumb container l-inner">
       <div class="row">
-        <div class="xs16">
+        <div class="xs-16">
           <h2 class="section-title">Types</h2>
           <p>A standard breadcrumb</p>
 

@@ -6,7 +6,7 @@
     <div class="hero-image">
       <div class="container">
         <div class="row">
-          <div class="xs16">
+          <div class="xs-16">
             <h1 class="title">Alerts</h1>
           </div>
         </div>
@@ -15,7 +15,7 @@
 
     <div class="b-section-alerts container">
       <div class="row">
-        <div class="xs16">
+        <div class="xs-16">
           <h2 class="section-title">Examples</h2>
           <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible
             alert messages. Wrap any text and an optional dismiss button in .alert and one of the four contextual
@@ -30,7 +30,7 @@
           <div class="row">
 
             <!--ALERT WITH SUCCESS-->
-            <div class="xs16 alert alert-success alert-dismissible" role="alert">
+            <div class="xs-16 alert alert-success alert-dismissible" role="alert">
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <i aria-hidden="true" class="fa fa-close"></i>
               </button>
@@ -39,7 +39,7 @@
             </div>
 
             <!--ALERT WITH INFO-->
-            <div class="xs16 alert alert-info alert-dismissible" role="alert">
+            <div class="xs-16 alert alert-info alert-dismissible" role="alert">
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <i aria-hidden="true" class="fa fa-close"></i>
               </button>
@@ -48,7 +48,7 @@
             </div>
 
             <!--ALERT WITH WARNING-->
-            <div class="xs16 alert alert-warning alert-dismissible" role="alert">
+            <div class="xs-16 alert alert-warning alert-dismissible" role="alert">
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <i aria-hidden="true" class="fa fa-close"></i>
               </button>
@@ -57,7 +57,7 @@
             </div>
 
             <!--ALERT WITH DANGER-->
-            <div class="xs16 alert alert-danger alert-dismissible" role="alert">
+            <div class="xs-16 alert alert-danger alert-dismissible" role="alert">
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <i aria-hidden="true" class="fa fa-close"></i>
               </button>

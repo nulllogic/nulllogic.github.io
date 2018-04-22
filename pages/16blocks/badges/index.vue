@@ -6,7 +6,7 @@
     <div class="hero-image">
       <div class="container">
         <div class="row">
-          <div class="xs16">
+          <div class="xs-16">
             <h1 class="title">Badges</h1>
           </div>
         </div>
@@ -15,7 +15,7 @@
 
     <div class="b-section-badges container">
       <div class="row">
-        <div class="xs16">
+        <div class="xs-16">
           <h2 class="section-title">The Basics</h2>
           <p>Easily highlight new or unread items by adding a &lt;span class="badge"&gt; to links.</p>
 

@@ -6,7 +6,7 @@
     <div class="hero-image">
       <div class="container">
         <div class="row">
-          <div class="xs16">
+          <div class="xs-16">
             <h1 class="title">Loader</h1>
           </div>
         </div>
@@ -15,7 +15,7 @@
 
     <div class="b-section-load container">
       <div class="row">
-        <div class="xs16">
+        <div class="xs-16">
           <h2 class="section-title">The Basics</h2>
           <p>dkuvgduf ;sdjg vlj skjdb bsdkjfb kjbdkjbkjb s;oih;so ;aosih ;oshv kjdkj;dih ;soihf;osu;o ;oasifu; ;osh
             oh;sof ubgas;oug;oSUD. ;OUWGGFU LJBSDF//uub uab;ougf</p>
