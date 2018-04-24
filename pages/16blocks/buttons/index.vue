@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <div class="b-section-ui container">
+    <div class="b-section-btn container">
       <div class="row">
         <div class="xs-16">
           <h2 class="section-title">sgsdzsc</h2>
@@ -60,19 +60,14 @@
             </div>
           </div>
 
-          <h2 class="section-title">etc buttons</h2>
-          <p>skjdh,e akdv kaakvkuyavl liu av liy </p>
-
-          <!--ETC BUTTONS-->
+          <h3>Disabled buttons </h3>
+          <p>iufshjvmsdvy sailgdla aygidil afd</p>
 
           <div>
-            <button type="button" class="btn btn-icon">
-              <i class="fa fa-close"></i>
-            </button>
-            <button type="button" class="btn btn-icon">
-              <i class="fa fa-trash"></i>
-            </button>
+            <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary button</button>
+            <button type="button" class="btn btn-default btn-lg" disabled="disabled">Button</button>
           </div>
+
         </div>
       </div>
     </div>

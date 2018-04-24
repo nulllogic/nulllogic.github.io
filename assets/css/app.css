@@ -326,7 +326,16 @@ div.nav-example:last-of-type .nav-vertical {
   display: block;
 }
 
+.b-section-btn .btn {
+  margin-left: 3px;
+  margin-right: 3px;
+}
 
+.b-section-utilities .example-1 th small {
+  display: block;
+  font-weight: 400;
+  color: #a7a7a7;
+}
 
 .b-section-ui .content {
 
