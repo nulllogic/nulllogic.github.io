@@ -51,9 +51,11 @@
               </li>
               <li class="divider"></li>
               <li>
+                <a href="/16blocks/tables">Tables</a>
+              </li>
+              <li>
                 <a href="/16blocks/form">Forms</a>
               </li>
-              <li><a href="/16blocks/tables">Tables</a></li>
               <li class="divider"></li>
               <li><a href="/16blocks/buttons">Buttons</a></li>
               <li><a href="/16blocks/utilities">Responsive utilities</a></li>

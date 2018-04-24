@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <div class="b-section-tables container l-inner">
+    <div class="b-section-tables container">
       <div class="row">
         <div class="xs-16">
           <h2 class="section-title">Basic example</h2>
@@ -28,7 +28,7 @@
           <!--OPTIONAL TABLE-->
 
           <table class="table">
-            <caption>Optional table caption.</caption>
+            <caption>Table caption.</caption>
             <thead>
             <tr>
               <th>N</th>
@@ -40,21 +40,21 @@
             <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
+              <td>Jack</td>
+              <td>Jones</td>
+              <td>@jj</td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td>Thomas</td>
+              <td>Brown</td>
+              <td>@tb</td>
             </tr>
             <tr>
               <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
+              <td>Daniel</td>
+              <td>Wilson</td>
+              <td>@dw</td>
             </tr>
             </tbody>
           </table>
@@ -76,21 +76,21 @@
             <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
+              <td>Jack</td>
+              <td>Jones</td>
+              <td>@jj</td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td>Thomas</td>
+              <td>Brown</td>
+              <td>@tb</td>
             </tr>
             <tr>
               <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
+              <td>Daniel</td>
+              <td>Wilson</td>
+              <td>@dw</td>
             </tr>
             </tbody>
           </table>
@@ -112,21 +112,21 @@
             <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
+              <td>Jack</td>
+              <td>Jones</td>
+              <td>@jj</td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td>Thomas</td>
+              <td>Brown</td>
+              <td>@tb</td>
             </tr>
             <tr>
               <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
+              <td>Daniel</td>
+              <td>Wilson</td>
+              <td>@dw</td>
             </tr>
             </tbody>
           </table>
@@ -148,21 +148,21 @@
             <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
+              <td>Jack</td>
+              <td>Jones</td>
+              <td>@jj</td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td>Thomas</td>
+              <td>Brown</td>
+              <td>@tb</td>
             </tr>
             <tr>
               <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
+              <td>Daniel</td>
+              <td>Wilson</td>
+              <td>@dw</td>
             </tr>
             </tbody>
           </table>
@@ -184,20 +184,21 @@
             <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
+              <td>Jack</td>
+              <td>Jones</td>
+              <td>@jj</td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td>Thomas</td>
+              <td>Brown</td>
+              <td>@tb</td>
             </tr>
             <tr>
               <th scope="row">3</th>
-              <td colspan="2">Larry the Bird</td>
-              <td>@twitter</td>
+              <td>Daniel</td>
+              <td>Wilson</td>
+              <td>@dw</td>
             </tr>
             </tbody>
           </table>
