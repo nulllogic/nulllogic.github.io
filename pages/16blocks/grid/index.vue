@@ -176,6 +176,9 @@
           <figure class="highlight">
                 <pre>
                     <code class="css">
+/* Extra small devices */
+Phones (&lt;544px)
+
 /* Small devices */
 @media (min-width: 544px) {
 }
