@@ -2760,7 +2760,13 @@ option {
 /*        |  | |    |___ |    |___ |\/| |___ |\ |  |  [__        */
 /*        |__| |    |___ |___ |___ |  | |___ | \|  |  ___]       */
 
-/*------------- BREADCRUMBS */
+
+
+/*-------------
+
+      BREADCRUMBS
+
+*/
 
 .breadcrumbs {
   margin: 20px 0;
@@ -4042,21 +4048,21 @@ label.star:before {
 
 /*-------------------- wizard-complete*/
 
-.step.complete .title {
-  color: #337ab7;
+.step.complete .title,
+.step.complete:hover .title,
+.step.complete a i,
+.step.complete:hover a i,
+.step.complete .number {
+  color: #449d44;
 }
 
 .step.complete:hover {
   background-color: #ffffff;
 }
 
-.step.complete:hover .title {
-  color: #23527c;
-}
-
-.step.complete a i,
-.step.complete:hover a i {
-  color: #327c32;
+.step.complete > a:hover,
+.step.complete:hover {
+  cursor: default;
 }
 
 .wizard:not(.wizard-vertical) .step.complete:not(:last-child):after,
@@ -4070,7 +4076,9 @@ label.star:before {
   background-color: #f1f1f1;
 }
 
-.wizard .step.active .title {
+.wizard .step.active .title,
+.wizard .step.active .icon,
+.wizard .step.active .number {
   color: #337ab7;
 }
 
@@ -4078,13 +4086,13 @@ label.star:before {
   color: #555555;
 }
 
-.step.active > a:hover {
+.step.active > a:hover,
+.step.active:hover {
   cursor: default;
 }
 
 .step.active:hover {
   background-color: #f1f1f1;
-  cursor: default;
 }
 
 .wizard:not(.wizard-vertical) .active.step:not(:last-child):after {

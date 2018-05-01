@@ -23,31 +23,31 @@
           <ul class="wizard b-example">
             <li class="step active">
               <div class="icon">
-                <i class="fa fa-database"></i>
+                <i class="fa fa-address-card"></i>
               </div>
-              <span class="title">Настройка базы данных</span>
-              <span class="desc">настройка подключения к БД</span>
+              <span class="title">Your name</span>
+              <span class="desc">enter your name and email</span>
             </li>
             <li class="step">
               <div class="icon">
-                <i class="fa fa-support"></i>
+                <i class="fa fa-trophy"></i>
               </div>
-              <span class="title">Метаданные</span>
-              <span class="desc">настройки SEO</span>
+              <span class="title">License</span>
+              <span class="desc">choose options</span>
             </li>
             <li class="step">
               <div class="icon">
-                <i class="fa fa-user"></i>
+                <i class="fa fa-user-plus"></i>
               </div>
-              <span class="title">Аккаунт</span>
-              <span class="desc">настройка пользователя</span>
+              <span class="title">Invite</span>
+              <span class="desc">send invite to friend</span>
             </li>
             <li class="step">
               <div class="icon">
                 <i class="fa fa-check"></i>
               </div>
-              <span class="title">Все готово!</span>
-              <span class="desc">давайте начинать</span>
+              <span class="title">Finish</span>
+              <span class="desc">welcome to us !</span>
             </li>
           </ul>
 
@@ -57,25 +57,25 @@
           <!--WIZARD WITH NUMBERS-->
 
           <ul class="wizard b-example">
-            <li class="step">
+            <li class="step complete">
               <span class="number">1</span>
-              <span class="title">Настройка базы данных</span>
-              <span class="desc">настройка подключения к БД</span>
+              <span class="title">Your name</span>
+              <span class="desc">enter your name and email</span>
             </li>
             <li class="step active">
               <span class="number">2</span>
-              <span class="title">Метаданные</span>
-              <span class="desc">настройки SEO</span>
+              <span class="title">License</span>
+              <span class="desc">choose options</span>
             </li>
             <li class="step">
               <span class="number">3</span>
-              <span class="title">Аккаунт</span>
-              <span class="desc">настройка пользователя</span>
+              <span class="title">Invite</span>
+              <span class="desc">send invite to friend</span>
             </li>
             <li class="step">
               <span class="number">4</span>
-              <span class="title">Все готово!</span>
-              <span class="desc">давайте начинать</span>
+              <span class="title">Finish</span>
+              <span class="desc">welcome to us !</span>
             </li>
           </ul>
 
@@ -90,26 +90,26 @@
                         <span class="icon">
                             <i class="fa fa-check"></i>
                         </span>
-                <span class="title">Настройка базы данных</span>
-                <span class="desc">настройка подключения к БД</span>
+                <span class="title">Your name</span>
+                <span class="desc">enter your name and email</span>
               </a>
             </li>
             <li class="step active">
               <a href="#">
                         <span class="icon">
-                            <i class="fa fa-support"></i>
+                            <i class="fa fa-trophy"></i>
                         </span>
-                <span class="title">Метаданные</span>
-                <span class="desc">настройки SEO</span>
+                <span class="title">License</span>
+                <span class="desc">choose options</span>
               </a>
             </li>
             <li class="step">
               <a href="#">
                         <span class="icon">
-                            <i class="fa fa-user"></i>
+                            <i class="fa fa-user-plus"></i>
                         </span>
-                <span class="title">Аккаунт</span>
-                <span class="desc">настройка пользователя</span>
+                <span class="title">Invite</span>
+                <span class="desc">send invite to friend</span>
               </a>
             </li>
             <li class="step">
@@ -117,8 +117,8 @@
                         <span class="icon">
                             <i class="fa fa-check"></i>
                         </span>
-                <span class="title">Все готово!</span>
-                <span class="desc">давайте начинать</span>
+                <span class="title">Finish</span>
+                <span class="desc">welcome to us !</span>
               </a>
             </li>
           </ul>
@@ -134,8 +134,8 @@
                         <span class="icon">
                             <i class="fa fa-check"></i>
                         </span>
-                <span class="title">Настройка базы данных</span>
-                <span class="desc">настройка подключения к БД</span>
+                <span class="title">Your name</span>
+                <span class="desc">enter your name and email</span>
               </a>
             </li>
             <li class="step complete">
@@ -143,17 +143,17 @@
                         <span class="icon">
                             <i class="fa fa-check"></i>
                         </span>
-                <span class="title">Метаданные</span>
-                <span class="desc">настройки SEO</span>
+                <span class="title">License</span>
+                <span class="desc">choose options</span>
               </a>
             </li>
             <li class="step active">
               <a href="#">
                         <span class="icon">
-                            <i class="fa fa-user"></i>
+                            <i class="fa fa-user-plus"></i>
                         </span>
-                <span class="title">Аккаунт</span>
-                <span class="desc">настройка пользователя</span>
+                <span class="title">Invite</span>
+                <span class="desc">send invite to friend</span>
               </a>
             </li>
             <li class="step">
@@ -161,8 +161,8 @@
                         <span class="icon">
                             <i class="fa fa-check"></i>
                         </span>
-                <span class="title">Все готово!</span>
-                <span class="desc">давайте начинать</span>
+                <span class="title">Finish</span>
+                <span class="desc">welcome to us !</span>
               </a>
             </li>
           </ul>

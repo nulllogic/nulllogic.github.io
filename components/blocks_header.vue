@@ -70,22 +70,22 @@
 
             <ul class="dropdown">
               <li>
-                <a href="/16blocks/nav">Navigation</a>
+                <a href="/16blocks/navbar">Navigation</a>
               </li>
-              <li>
-                <a href="/16blocks/uielements">Ul elements</a>
-              </li>
-              <li class="divider"></li>
-              <li><a href="/16blocks/flex">Flex</a></li>
               <li><a href="/16blocks/breadcrumb">Breadcrumb</a></li>
+              <li class="divider"></li>
+              <li><a href="/16blocks/navs">Navs</a></li>
+              <li><a href="/16blocks/flex">Flex</a></li>
+              <li><a href="/16blocks/uielements">Ul elements</a></li>
+              <li class="divider"></li>
+              <li><a href="/16blocks/alerts">Alerts</a></li>
+              <li><a href="/16blocks/message">Message</a></li>
+              <li><a href="/16blocks/list-group">List group</a></li>
               <li><a href="/16blocks/pagination">Pagination</a></li>
               <li><a href="/16blocks/badges">Badges</a></li>
-              <li><a href="/16blocks/alerts">Alerts</a></li>
-              <li><a href="/16blocks/tabs">Tabs</a></li>
+              <li class="divider"></li>
               <li><a href="/16blocks/load">Loader</a></li>
-              <li><a href="/16blocks/message">Message</a></li>
               <li><a href="/16blocks/rating">Rating</a></li>
-              <li><a href="/16blocks/list-group">List group</a></li>
               <li><a href="/16blocks/wizards">Wizards</a></li>
             </ul>
           </li>

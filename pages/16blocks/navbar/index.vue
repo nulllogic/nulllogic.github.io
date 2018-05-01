@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <div class="b-section-menu container l-inner">
+    <div class="b-section-navbar container l-inner">
       <div class="row">
         <div class="xs-16">
           <h2 class="section-title">The Basics</h2>

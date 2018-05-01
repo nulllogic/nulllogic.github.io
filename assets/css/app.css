@@ -828,10 +828,6 @@ figure.highlight {
 
 /* wizard */
 
-.wizard.b-example li .title {
-	color: #222222;
-}
-
 .wizard.b-example li:hover {
 	color: #222222;
 	background-color: inherit;

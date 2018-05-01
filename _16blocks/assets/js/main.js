@@ -1,11 +1,11 @@
 jQuery(document).ready(function () {
-    var nav = jQuery('.nav'),
+    var nav = jQuery('.navbar'),
         hamburger = jQuery('.hamburger');
 
 
     hamburger.click(function (e) {
         e.preventDefault();
-        var _nav = jQuery(this).closest('.nav');
+        var _nav = jQuery(this).closest('.navbar');
 
         if (_nav.hasClass('menu-opened')) {
             _nav.removeClass('menu-opened');

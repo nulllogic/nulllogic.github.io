@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <div class="b-section-tabs container">
+    <div class="b-section-navs container">
       <div class="row">
         <div class="xs-16">
           <h2 class="section-title">The Basics</h2>
