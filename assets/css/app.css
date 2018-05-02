@@ -380,6 +380,33 @@ div.nav-example:last-of-type .nav-vertical {
   background-color: #f5e1e1;
 }
 
+.b-section-navs .navs-example,
+.b-section-flex .flex-example {
+  margin-bottom: 30px;
+}
+
+.b-section-flex .flex-example {
+  background-color: rgba(50, 124, 50, 0.3);
+}
+
+.b-section-flex .flex-example .column {
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #327c32;
+  border: 1px solid #2e692e;
+}
+
+.b-section-flex .flex-example .column span {
+  display: block;
+}
+
+.b-section-flex .flex-example.example-align {
+  min-height: 150px;
+}
+
+
+
+
 .b-section-ui .content {
 
 	background: rgb(239, 239, 239); /* Old browsers */
