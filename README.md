@@ -1,4 +1,4 @@
-[![16Girls](https://cdn.rawgit.com/nulllogic/nulllogic.github.io/8214bc71/assets/img/16blocks_logo.jpg)](http://nulllogic.github.io/dist/16blocks/) 
+[![16Girls](https://cdn.rawgit.com/nulllogic/nulllogic.github.io/8214bc71/assets/img/16blocks_logo.jpg)](http://nulllogic.github.io/dist/16blocks/)
 
 # Welcome [![Build Status](https://api.travis-ci.org/nulllogic/16Girls.svg)](https://travis-ci.org/nulllogic/16Girls) [![Code Climate](https://codeclimate.com/github/nulllogic/12Blocks/badges/gpa.svg)](https://codeclimate.com/github/nulllogic/12Blocks)
 
@@ -19,4 +19,4 @@ In order to quickstart, you need to download source code [here](https://github.c
 Code and documentation copyright 2016-2018 the [NullLogic](https://nulllogic.net) Code released under the [MIT License](https://github.com/nulllogic/nulllogic.github.io/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/nulllogic/nulllogic.github.io/blob/master/LICENSE).
 
 # Our sponsors 
-[![BrowserStack](https://cdn.rawgit.com/nulllogic/nulllogic.github.io/8214bc71/assets/img/browserstack-logo-600x315.png | width=250)](https://www.browserstack.com/)
+[![BrowserStack](https://cdn.rawgit.com/nulllogic/nulllogic.github.io/8214bc71/assets/img/browserstack-logo-600x315.png)](https://www.browserstack.com/)
