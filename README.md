@@ -1,4 +1,4 @@
-[![16Girls](https://github.com/nulllogic.github.io/16girls/raw/master/assets/img/16blocks_logo.png)](http://nulllogic.github.io/dist/16blocks/) 
+[![16Girls](https://github.com/nulllogic/nulllogic.github.io/raw/master/assets/img/logo.jpg)](http://nulllogic.github.io/dist/16blocks/) 
 
 # Welcome [![Build Status](https://api.travis-ci.org/nulllogic/16Girls.svg)](https://travis-ci.org/nulllogic/16Girls) [![Code Climate](https://codeclimate.com/github/nulllogic/12Blocks/badges/gpa.svg)](https://codeclimate.com/github/nulllogic/12Blocks)
 
