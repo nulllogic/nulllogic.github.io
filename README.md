@@ -17,3 +17,6 @@ In order to quickstart, you need to download source code [here](https://github.c
 # Copyright and license
 
 Code and documentation copyright 2016-2018 the [NullLogic](https://nulllogic.net) Code released under the [MIT License](https://github.com/nulllogic/nulllogic.github.io/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/nulllogic/nulllogic.github.io/blob/master/LICENSE).
+
+# Our sponsors 
+[![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=<badge_key>)](https://www.browserstack.com/automate/public-build/<badge_key>)
