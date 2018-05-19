@@ -156,6 +156,10 @@
                     <td><code>.visible-*-inline-block</code></td>
                     <td><code>display: inline-block;</code></td>
                   </tr>
+                  <tr>
+                    <td><code>.visible-*-flex</code></td>
+                    <td><code>display: flex;</code></td>
+                  </tr>
                   </tbody>
                 </table>
               </div>

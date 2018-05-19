@@ -36,7 +36,7 @@
           <!-- FLEXBOX WRAP -->
           <h2 class="section-title">Flex wrap</h2>
           <p>flex nowrap</p>
-          <div class="flex-example flex flex-nowrap-md flex-wrap">
+          <div class="flex-example flex flex-nowrap">
             <div class="column">
               <span>Flex 1</span>
             </div>
@@ -58,11 +58,29 @@
             <div class="column">
               <span>Flex 7</span>
             </div>
-            <div class="column">
+            <div class="column hidden-sm hidden-xs">
               <span>Flex 8</span>
             </div>
-            <div class="column">
+            <div class="column hidden-sm hidden-xs">
               <span>Flex 9</span>
+            </div>
+            <div class="column hidden-sm hidden-xs">
+              <span>Flex 10</span>
+            </div>
+            <div class="column hidden-md hidden-sm hidden-xs">
+              <span>Flex 11</span>
+            </div>
+            <div class="column hidden-md hidden-sm hidden-xs">
+              <span>Flex 12</span>
+            </div>
+            <div class="column hidden-md hidden-sm hidden-xs">
+              <span>Flex 13</span>
+            </div>
+            <div class="column hidden-md hidden-sm hidden-xs">
+              <span>Flex 14</span>
+            </div>
+            <div class="column hidden-lg hidden-md hidden-sm hidden-xs">
+              <span>Flex 15</span>
             </div>
           </div>
           <p>flex wrap</p>
@@ -88,11 +106,29 @@
             <div class="column">
               <span>Flex 7</span>
             </div>
-            <div class="column">
+            <div class="column hidden-sm hidden-xs">
               <span>Flex 8</span>
             </div>
-            <div class="column">
+            <div class="column hidden-sm hidden-xs">
               <span>Flex 9</span>
+            </div>
+            <div class="column hidden-sm hidden-xs">
+              <span>Flex 10</span>
+            </div>
+            <div class="column hidden-md hidden-sm hidden-xs">
+              <span>Flex 11</span>
+            </div>
+            <div class="column hidden-md hidden-sm hidden-xs">
+              <span>Flex 12</span>
+            </div>
+            <div class="column hidden-md hidden-sm hidden-xs">
+              <span>Flex 13</span>
+            </div>
+            <div class="column hidden-md hidden-sm hidden-xs">
+              <span>Flex 14</span>
+            </div>
+            <div class="column hidden-lg hidden-md hidden-sm hidden-xs">
+              <span>Flex 15</span>
             </div>
           </div>
 
