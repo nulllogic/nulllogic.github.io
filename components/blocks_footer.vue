@@ -3,36 +3,22 @@
     <div class="b-outro">
       <div class="row">
         <div class="md-one-third">
-          <h6><strong>Made by ZURB</strong></h6>
-          <p>Foundation is made by <a href="http://www.zurb.com/">ZURB</a>, a product
-            design company in
-            Campbell, California. We've put more than 14 years of experience
-            building web products,
-            services and websites into this framework.
-            <a href="../about.php">Foundation Info and Goodies в†’</a>
-          </p>
+          <h6><strong>Made by NullLogic</strong></h6>
+          <p>16Blocks is made by <a href="http://www.nulllogic.net/">NullLogic</a>, a product design company in Moscow,
+            Russia. We've put more than 10 years of experience building web products, services and websites into this
+            framework.</p>
         </div>
         <div class="md-one-third">
-          <h6><strong>Made by ZURB</strong></h6>
-
-          <p>Foundation is made by <a href="http://www.zurb.com/">ZURB</a>, a product
-            design company in
-            Campbell, California. We've put more than 14 years of experience
-            building web products,
-            services and websites into this framework.
-            <a href="../about.php">Foundation Info and Goodies в†’</a>
-          </p>
+          <h6><strong>Made by NullLogic</strong></h6>
+          <p>16Blocks is made by <a href="http://www.nulllogic.net/">NullLogic</a>, a product design company in Moscow,
+            Russia. We've put more than 10 years of experience building web products, services and websites into this
+            framework.</p>
         </div>
         <div class="md-one-third">
-          <h6><strong>Made by ZURB</strong></h6>
-
-          <p>Foundation is made by <a href="http://www.zurb.com/">ZURB</a>, a product
-            design company in
-            Campbell, California. We've put more than 14 years of experience
-            building web products,
-            services and websites into this framework.
-            <a href="../about.php">Foundation Info and Goodies в†’</a>
-          </p>
+          <h6><strong>Made by NullLogic</strong></h6>
+          <p>16Blocks is made by <a href="http://www.nulllogic.net/">NullLogic</a>, a product design company in Moscow,
+            Russia. We've put more than 10 years of experience building web products, services and websites into this
+            framework.</p>
         </div>
       </div>
     </div>
@@ -55,7 +41,7 @@
 
 <script>
   export default {
-    data () {
+    data() {
       return {
         goods: [
           {

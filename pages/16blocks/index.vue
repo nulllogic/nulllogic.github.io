@@ -10,7 +10,7 @@
           <div class="welcome">
             <h1 class="title">16blocks framework</h1>
             <span class="subtitle">Sexy, simple, sleek tool for developers </span>
-            <a href="#" class="btn btn-large btn-default">Download 16Blocks</a>
+            <a href="https://github.com/nulllogic/nulllogic.github.io" class="btn btn-large btn-default">Download 16Blocks</a>
           </div>
         </div>
       </div>
@@ -25,7 +25,7 @@
             <a href="" class="sha"></a>
             &nbsp;&nbsp;
             <span class="date"></span>
-            <a id="github-button" href="https://github.com/Dogfalo/materialize"
+            <a id="github-button" href="https://github.com/nulllogic/nulllogic.github.io"
                class="btn-flat right grey-text text-lighten-5 waves-effect waves-light hide-on-small-only">Github</a>
           </div>
 
