@@ -8,7 +8,7 @@ const Header = ({ siteTitle }) => (
       <div className="row">
         <div className="xs-16">
         
-          <ul className="nav main-nav">
+          <ul className="nav nav-horizontal main-nav">
             <li className="hamburger">
               <button>
                 <span className="line"></span>
@@ -17,42 +17,28 @@ const Header = ({ siteTitle }) => (
               </button>
             </li>
             <li className="name nav-logo">
-              <a href="./index.html" className="title">
+              <Link to="/16blocks" className="title">
                 16 Blocks
-              </a>
+              </Link>
             </li>
             <li className="has-dropdown to-left">
-              <a className="active" href="#">
-                Getting Started
-                <i className="fa fa-caret-down" aria-hidden="true"></i>
-              </a>
-            
+              <a className="active" href="#">Getting Started<i className="fa fa-caret-down" aria-hidden="true"></i></a>
               <ul className="dropdown">
-                <li>
-                  <a href="/" className="">Download</a>
-                </li>
+                <li><a href="#" className="">Download</a></li>
               </ul>
             </li>
           
             <li className="has-dropdown to-left">
-              <a className="active" href="#">
-                CSS
-                <i className="fa fa-caret-down" aria-hidden="true"></i>
-              </a>
-            
+              <a className="active" href="#">CSS<i className="fa fa-caret-down" aria-hidden="true"></i></a>
               <ul className="dropdown">
-                <li>
-                  <a href="./grid.html" className="">Grid</a>
-                </li>
-                <li>
-                  <a href="./typography.html">Typography</a>
-                </li>
-                <li>
-                  <a href="./form.html">Form</a>
-                </li>
+                <li><Link to="/16blocks/grid" className="">Grid</Link></li>
+                <li><Link to="/16blocks/typography">Typography</Link></li>
                 <li className="divider"></li>
-                <li><a href="./tables.html">Tables</a></li>
-                <li><a href="./flex.html">Flex</a></li>
+                <li><Link to="/16blocks/tables">Tables</Link></li>
+                <li><Link to="/16blocks/form">Forms</Link></li>
+                <li className="divider"></li>
+                <li><Link to="/16blocks/buttons">Buttons</Link></li>
+                <li><Link to="/16blocks/utilities">Responsive utilities</Link></li>
               </ul>
             </li>
           
@@ -61,31 +47,26 @@ const Header = ({ siteTitle }) => (
                 Components
                 <i className="fa fa-caret-down" aria-hidden="true"></i>
               </a>
-            
               <ul className="dropdown">
-                <li>
-                  <a href="./nav.html">Navigation</a>
-                </li>
-                <li>
-                  <a href="./uielements.html">Ul elements</a>
-                </li>
+                <li><Link to="/16blocks/navbar">Navigation</Link></li>
+                <li><Link to="/16blocks/breadcrumb">Breadcrumb</Link></li>
                 <li className="divider"></li>
-                <li><a href="./breadcrumb.html">Breadcrumb</a></li>
-                <li><a href="./pagination.html">Pagination</a></li>
-                <li><a href="./badges.html">Badges</a></li>
-                <li><a href="./alerts.html">Alerts</a></li>
-                <li><a href="./tabs.html">Tabs</a></li>
-                <li><a href="./load.html">Loader</a></li>
-                <li><a href="./message.html">Message</a></li>
-                <li><a href="./rating.html">Rating</a></li>
-                <li><a href="./icon.html">Icon</a></li>
-                <li><a href="./list-group.html">List group</a></li>
-                <li><a href="./wizards.html">Wizards</a></li>
+                <li><Link to="/16blocks/navs">Navs</Link></li>
+                <li><Link to="/16blocks/flex">Flex</Link></li>
+                <li><Link to="/16blocks/uielements">Ul elements</Link></li>
+                <li className="divider"></li>
+                <li><Link to="/16blocks/alerts">Alerts</Link></li>
+                <li><Link to="/16blocks/message">Message</Link></li>
+                <li><Link to="/16blocks/list-group">List group</Link></li>
+                <li><Link to="/16blocks/pagination">Pagination</Link></li>
+                <li><Link to="/16blocks/badges">Badges</Link></li>
+                <li className="divider"></li>
+                <li><Link to="/16blocks/load">Loader</Link></li>
+                <li><Link to="/16blocks/rating">Rating</Link></li>
+                <li><Link to="/16blocks/wizards">Wizards</Link></li>
               </ul>
             </li>
-        
           </ul>
-      
         </div>
       </div>
     </div>
