@@ -2,19 +2,23 @@ import React from "react"
 import {Link} from "gatsby"
 
 import Layout from "../../components/16blocks/layout"
+import BlocksImage from "../../components/16blocks/blocks-image";
 
 const IndexPage = () => (
     <Layout>
       <div className="n-intro" id="intro">
         <div className="container">
           <div className="row">
-            <div className="xs-16">
+            <div className="xs-10">
               <div className="n-title-block">
                 <h1 className="title">16blocks framework</h1>
                 <span className="subtitle">Simple and sleek tool for developers </span>
-                <a href="https://github.com/nulllogic/nulllogic.github.io" className="btn n-btn">Download</a>
+                <a href="https://github.com/nulllogic/nulllogic.github.io" className="btn n-btn n-icon-download">Download</a>
                 <Link to="#" className="btn n-btn">View docs</Link>
               </div>
+            </div>
+            <div className="xs-6 align-self-center">
+              <BlocksImage />
             </div>
           </div>
         </div>

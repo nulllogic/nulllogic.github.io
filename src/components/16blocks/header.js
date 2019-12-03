@@ -67,11 +67,11 @@ const Header = ({siteTitle}) => (
                   <li><Link to="/16blocks/wizards">Wizards</Link></li>
                 </ul>
               </li>
-              {/*<li className="nav-group">*/}
-              {/*  <a href="https://www.patreon.com/bePatron?u=25386787" data-patreon-widget-type="become-patron-button">Become*/}
-              {/*    a Patron!</a>*/}
-              {/*  <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>*/}
-              {/*</li>*/}
+              <li className="nav-group">
+                {/*<a href="https://www.patreon.com/bePatron?u=25386787" data-patreon-widget-type="become-patron-button">Become*/}
+                {/*  a Patron!</a>*/}
+                {/*<script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>*/}
+              </li>
             </ul>
           </div>
         </div>
