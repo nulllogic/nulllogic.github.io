@@ -125,6 +125,33 @@
 
 
 
+.nav-example .nav a {
+    color: #0e5d58;
+}
+
+.nav-example .nav a:hover {
+ color: #3fa292;
+}
+
+.nav-example .nav .menu-heading {
+  color: #053e3a;
+}
+
+.code-html {
+    margin: 0 5px;
+    padding: 5px;
+    color: #3fa292;
+    background-color: #e2e2e2;
+    border-radius: 3px;
+}
+
+.code-css {
+    margin: 0 5px;
+    padding: 5px;
+    color: #a23f3f;
+    background-color: #e2e2e2;
+    border-radius: 3px;
+}
 
 
 
@@ -175,9 +202,10 @@
     width: 100%;
     margin: 40px 0;
     padding: 5px 20px 15px 0;
-    color: #555555;
+    color: #0e5d58;
     font-weight: bold;
-    border-bottom: 1px solid #ccc;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #eaeaea;
 }
 
 .l-content .section-text {
@@ -702,35 +730,43 @@ div.nav-example:last-of-type .nav-vertical {
 
 
 
-.hero-image {
-    background-color: rgb(50, 124, 50);
-    background-image: radial-gradient(at left, #062706 10%, #327c32);
+.hero-image,
+.section-hero {
+    background-color: #0a443a;
+    background-image: radial-gradient(at left, #0a443a 40%, #176557);
     background-repeat: repeat-x;
-    padding: 50px;
+    padding: 30px 15px;
 }
 
-.hero-image .title {
-    width: 100%;
-    font-size: 4em;
+.hero-image .title,
+.section-hero .title {
     display: inline-block;
-    margin: 0 auto;
-    text-shadow: 1px 1px 1px #000000;
-    background: transparent;
-    zoom: 1;
+    width: 100%;
+    margin: 0 0 10px;
+    font-size: 4em;
     font-weight: bold;
     color: #ffffff;
-    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(40%, #000000), color-stop(100%, rgba(0, 0, 0, 0.6)));
     line-height: 68px;
+    text-shadow: 1px 1px 1px #000000;
+    background: transparent;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(40%, #000000), color-stop(100%, rgba(0, 0, 0, 0.6)));
+    zoom: 1;
 }
 
-.hero-image p {
+.hero-image p,
+.section-hero p {
     font-size: 1.5em;
     display: inline-block;
-    margin: 30px auto 0 auto;
     text-shadow: 1px 1px 1px #000000;
     background: transparent;
     color: #ffffff;
     opacity: 0.85;
+}
+
+.section-hero .img-wrapper {
+    max-width: 250px;
+    margin: 0 auto;
+    opacity: 0.9;
 }
 
 .container .bs-callout-info {
@@ -863,8 +899,8 @@ figure.highlight {
 }
 
 .nav-example:not(:last-of-type) {
-    margin-bottom: 10px;
-    border: 1px solid #c8c8c8;
+    margin: 20px 0 10px;
+    border: 1px solid #eaeaea;
 }
 
 

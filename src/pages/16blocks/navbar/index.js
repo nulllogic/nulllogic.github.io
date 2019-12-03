@@ -2,14 +2,21 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../../../components/16blocks/layout"
+import NavbarHeroImage from "../../../components/16blocks/img/navbar-hero-image";
 
 const NavbarPage = () => (
   <Layout>
-    <div className="hero-image">
+    <div className="section-hero">
       <div className="container">
-        <div className="row">
-          <div className="xs-16">
+        <div className="row flex-row-reverse flex-row-md align-items-center">
+          <div className="md-10">
             <h1 className="title">Navigation</h1>
+            <p className="description">Beautiful navbars with best practice and simple usage. <br /> Take the code and enjoy with development time!</p>
+          </div>
+          <div className="md-6">
+            <div className="img-wrapper">
+              <NavbarHeroImage />
+            </div>
           </div>
         </div>
       </div>
@@ -18,17 +25,12 @@ const NavbarPage = () => (
     <div className="b-section-navbar container l-inner">
       <div className="row">
         <div className="xs-16">
-          <h2 className="section-title">The Basics</h2>
-          <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
-            column; column create the actual structure. For layouts to work properly, always put your page content
-            inside a row and a column.</p>
-          <p>What you need to know is that <strong>column doesn't have a fixed width.</strong> They can vary based on
-            the resolution of the screen, or the size of the window (try scaling down this window to see what we
-            mean). Design with that in mind.</p>
-          <h2 className="section-title">Horizontal menu</h2>
-          <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
-            column; column create the actual structure. For layouts to work properly, always put your page content
-            inside a row and a column.</p>
+          <h2 className="section-title">Basic Navbar</h2>
+          <p className="section-description">This is a basic navigation, that you can easily take and use on yur website.
+            It has very simple and basic styles.</p>
+          <p className="section-description">We use flexbox for customisation the navigation. </p>
+          <p className="section-description">Tha navbar is mobile optimised and has simple structure. </p>
+
           <div className="nav-example">
             <div className="row">
               <ul className="nav nav-horizontal">
@@ -40,115 +42,21 @@ const NavbarPage = () => (
                   </button>
                 </li>
                 <li className="nav-logo">
-                  <a href="#">Top Bar Title</a>
-                </li>
-                <li className="has-dropdown to-left">
-                  <a className="active" href="#">
-                    Item 1
-                    <i className="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <ul className="dropdown">
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li className="has-dropdown to-left">
-                      <a href="#" className="">Level 1, Has Dropdown</a>
-                      <ul className="dropdown">
-                        <li className="menu-heading">
-                          <a>Section Name</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li className="has-dropdown to-left">
-                          <a href="#">Level 2, Has Dropdown</a>
-                          <ul className="dropdown">
-                            <li className="menu-heading">
-                              <a>Section Name</a>
-                            </li>
-                            <li><a href="#">Level 3</a></li>
-                            <li><a href="#">Level 3</a></li>
-                            <li className="divider"></li>
-                            <li><a href="#">Level 3</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Level 2</a></li>
-                        <li><a href="#">Level 2</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Level 1</a>
-                    </li>
-                    <li className="divider"></li>
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                  </ul>
+                  <a href="#">Website Logo</a>
                 </li>
                 <li>
-                  <a href="#">Hello</a>
+                  <a href="#">Our Products</a>
                 </li>
                 <li>
-                  <a href="#">Hello</a>
+                  <a href="#">About</a>
                 </li>
-              
-                <li className="has-dropdown to-left">
-                  <a className="active" href="#">
-                    Item 1
-                    <i className="fa fa-caret-down" aria-hidden="true"></i>
-                  </a>
-                  <ul className="dropdown">
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li className="has-dropdown to-left">
-                      <a href="#" className="">Level 1, Has Dropdown</a>
-                      <ul className="dropdown">
-                        <li className="menu-heading">
-                          <a>Section Name</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li>
-                          <a href="#">Level 2</a>
-                        </li>
-                        <li className="has-dropdown to-left">
-                          <a href="#">Level 2, Has Dropdown</a>
-                          <ul className="dropdown">
-                            <li className="menu-heading">
-                              <a>Section Name</a>
-                            </li>
-                            <li><a href="#">Level 3</a></li>
-                            <li><a href="#">Level 3</a></li>
-                            <li className="divider"></li>
-                            <li><a href="#">Level 3</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Level 2</a></li>
-                        <li><a href="#">Level 2</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Level 1</a>
-                    </li>
-                    <li className="divider"></li>
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                    <li><a href="#">Level 1</a></li>
-                  </ul>
+                <li>
+                  <a href="#">Contact us</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
                 </li>
               </ul>
-          
             </div>
           </div>
           <figure className="code-example">
@@ -158,7 +66,94 @@ const NavbarPage = () => (
                     </code>
                 </pre>
           </figure>
-          
+
+          <h2 className="section-title">Navbar with dropdown menu</h2>
+          <p className="section-description">Our navigation has support for one or more dropdowns with styles for them.
+            If you need a dropdown in your navbar, please, set a class <span className="code-css">.has-dropdown</span> for
+            wrapper tag <span className="code-html">&lt;li&gt;</span> and create <span className="code-html">&lt;ul&gt;</span> list
+            inside the HTML tag with class <span className="code-css">.dropdown</span>.</p>
+          <p className="section-description">You can easily change a position of dropdown. Use a class <span className="code-css">.to-left</span>,
+            if you need to show the menu in left side, and <span className="code-css">.to-right</span> for the right side.</p>
+
+          <div className="nav-example">
+            <div className="row">
+              <ul className="nav nav-horizontal">
+                <li className="hamburger">
+                  <button>
+                    <span className="line"></span>
+                    <span className="line"></span>
+                    <span className="line"></span>
+                  </button>
+                </li>
+                <li className="nav-logo"><a href="#">Website Logo</a></li>
+                <li className="has-dropdown to-left">
+                  <a href="#">Left Dropdown</a>
+                  <ul className="dropdown">
+                    <li className="menu-heading">Category</li>
+                    <li className="has-dropdown to-left">
+                      <a href="#" className="">Has Dropdown</a>
+                      <ul className="dropdown">
+                        <li className="menu-heading">Category</li>
+                        <li><a href="#">Navbar item</a></li>
+                        <li><a href="#">Navbar item</a></li>
+                        <li className="has-dropdown to-left">
+                          <a href="#">Has Dropdown</a>
+                          <ul className="dropdown">
+                            <li><a href="#">Navbar item</a></li>
+                            <li><a href="#">Navbar item</a></li>
+                            <li><a href="#">Navbar item</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Navbar item</a></li>
+                    <li className="divider"></li>
+                    <li className="menu-heading">Category</li>
+                    <li><a href="#">Navbar item</a></li>
+                    <li><a href="#">Navbar item</a></li>
+                    <li><a href="#">Navbar item</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Navbar item</a></li>
+                <li><a href="#">Navbar item</a></li>
+
+                <li className="has-dropdown to-right">
+                  <a href="#">Right Dropdown</a>
+                  <ul className="dropdown">
+                    <li className="menu-heading">Category</li>
+                    <li className="has-dropdown to-right">
+                      <a href="#" className="">Has Dropdown</a>
+                      <ul className="dropdown">
+                        <li className="menu-heading">Category</li>
+                        <li><a href="#">Navbar item</a></li>
+                        <li><a href="#">Navbar item</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Navbar item</a></li>
+                    <li className="divider"></li>
+                    <li className="menu-heading">Category</li>
+                    <li><a href="#">Navbar item</a></li>
+                    <li><a href="#">Navbar item</a></li>
+                    <li><a href="#">Navbar item</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+          <figure className="code-example">
+                <pre>
+                    <code>
+
+                    </code>
+                </pre>
+          </figure>
+
+
+          <h2 className="section-title">Horizontal menu</h2>
+          <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
+            column; column create the actual structure. For layouts to work properly, always put your page content
+            inside a row and a column.</p>
           <p>The grid is built around two key elements: rows and column. Rows create a max-width and contain the
             column; column create the actual structure. For layouts to work properly, always put your page content
             inside a row and a column.</p>
@@ -181,15 +176,11 @@ const NavbarPage = () => (
                     <i className="fa fa-caret-down" aria-hidden="true"></i>
                   </a>
                   <ul className="dropdown">
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li className="has-dropdown to-left">
                       <a href="#" className="">Level 1, Has Dropdown</a>
                       <ul className="dropdown">
-                        <li className="menu-heading">
-                          <a>Section Name</a>
-                        </li>
+                        <li className="menu-heading">Section name</li>
                         <li>
                           <a href="#">Level 2</a>
                         </li>
@@ -199,9 +190,7 @@ const NavbarPage = () => (
                         <li className="has-dropdown to-left">
                           <a href="#">Level 2, Has Dropdown</a>
                           <ul className="dropdown">
-                            <li className="menu-heading">
-                              <a>Section Name</a>
-                            </li>
+                            <li className="menu-heading">Section name</li>
                             <li><a href="#">Level 3</a></li>
                             <li><a href="#">Level 3</a></li>
                             <li className="divider"></li>
@@ -216,9 +205,7 @@ const NavbarPage = () => (
                       <a href="#">Level 1</a>
                     </li>
                     <li className="divider"></li>
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
@@ -237,15 +224,11 @@ const NavbarPage = () => (
                     <i className="fa fa-caret-down" aria-hidden="true"></i>
                   </a>
                   <ul className="dropdown">
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li className="has-dropdown to-right">
                       <a href="#" className="">Level 1, Has Dropdown</a>
                       <ul className="dropdown">
-                        <li className="menu-heading">
-                          <a>Section Name</a>
-                        </li>
+                        <li className="menu-heading">Section name</li>
                         <li>
                           <a href="#">Level 2</a>
                         </li>
@@ -255,9 +238,7 @@ const NavbarPage = () => (
                         <li className="has-dropdown to-right">
                           <a href="#">Level 2, Has Dropdown</a>
                           <ul className="dropdown">
-                            <li className="menu-heading">
-                              <a>Section Name</a>
-                            </li>
+                            <li className="menu-heading">Section name</li>
                             <li><a href="#">Level 3</a></li>
                             <li><a href="#">Level 3</a></li>
                             <li className="divider"></li>
@@ -272,9 +253,7 @@ const NavbarPage = () => (
                       <a href="#">Level 1</a>
                     </li>
                     <li className="divider"></li>
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
@@ -307,15 +286,11 @@ const NavbarPage = () => (
                     <i className="fa fa-caret-down" aria-hidden="true"></i>
                   </a>
                   <ul className="dropdown">
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li className="has-dropdown to-left">
                       <a href="#" className="">Level 1, Has Dropdown</a>
                       <ul className="dropdown">
-                        <li className="menu-heading">
-                          <a>Section Name</a>
-                        </li>
+                        <li className="menu-heading">Section name</li>
                         <li>
                           <a href="#">Level 2</a>
                         </li>
@@ -325,9 +300,7 @@ const NavbarPage = () => (
                         <li className="has-dropdown to-left">
                           <a href="#">Level 2, Has Dropdown</a>
                           <ul className="dropdown">
-                            <li className="menu-heading">
-                              <a>Section Name</a>
-                            </li>
+                            <li className="menu-heading">Section name</li>
                             <li><a href="#">Level 3</a></li>
                             <li><a href="#">Level 3</a></li>
                             <li className="divider"></li>
@@ -342,9 +315,7 @@ const NavbarPage = () => (
                       <a href="#">Level 1</a>
                     </li>
                     <li className="divider"></li>
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
@@ -363,15 +334,11 @@ const NavbarPage = () => (
                     <i className="fa fa-caret-down" aria-hidden="true"></i>
                   </a>
                   <ul className="dropdown">
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li className="has-dropdown to-right">
                       <a href="#" className="">Level 1, Has Dropdown</a>
                       <ul className="dropdown">
-                        <li className="menu-heading">
-                          <a>Section Name</a>
-                        </li>
+                        <li className="menu-heading">Section name</li>
                         <li>
                           <a href="#">Level 2</a>
                         </li>
@@ -381,9 +348,7 @@ const NavbarPage = () => (
                         <li className="has-dropdown to-right">
                           <a href="#">Level 2, Has Dropdown</a>
                           <ul className="dropdown">
-                            <li className="menu-heading">
-                              <a>Section Name</a>
-                            </li>
+                            <li className="menu-heading">Section name</li>
                             <li><a href="#">Level 3</a></li>
                             <li><a href="#">Level 3</a></li>
                             <li className="divider"></li>
@@ -398,9 +363,7 @@ const NavbarPage = () => (
                       <a href="#">Level 1</a>
                     </li>
                     <li className="divider"></li>
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
@@ -435,15 +398,11 @@ const NavbarPage = () => (
                     <i className="fa fa-caret-down" aria-hidden="true"></i>
                   </a>
                   <ul className="dropdown">
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li className="has-dropdown to-left">
                       <a href="#" className="">Level 1, Has Dropdown</a>
                       <ul className="dropdown">
-                        <li className="menu-heading">
-                          <a>Section Name</a>
-                        </li>
+                        <li className="menu-heading">Section name</li>
                         <li>
                           <a href="#">Level 2</a>
                         </li>
@@ -453,9 +412,7 @@ const NavbarPage = () => (
                         <li className="has-dropdown to-left">
                           <a href="#">Level 2, Has Dropdown</a>
                           <ul className="dropdown">
-                            <li className="menu-heading">
-                              <a>Section Name</a>
-                            </li>
+                            <li className="menu-heading">Section name</li>
                             <li><a href="#">Level 3</a></li>
                             <li><a href="#">Level 3</a></li>
                             <li className="divider"></li>
@@ -470,9 +427,7 @@ const NavbarPage = () => (
                       <a href="#">Level 1</a>
                     </li>
                     <li className="divider"></li>
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
@@ -485,15 +440,11 @@ const NavbarPage = () => (
                     <i className="fa fa-caret-down" aria-hidden="true"></i>
                   </a>
                   <ul className="dropdown">
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li className="has-dropdown to-right">
                       <a href="#" className="">Level 1, Has Dropdown</a>
                       <ul className="dropdown">
-                        <li className="menu-heading">
-                          <a>Section Name</a>
-                        </li>
+                        <li className="menu-heading">Section name</li>
                         <li>
                           <a href="#">Level 2</a>
                         </li>
@@ -503,9 +454,7 @@ const NavbarPage = () => (
                         <li className="has-dropdown to-right">
                           <a href="#">Level 2, Has Dropdown</a>
                           <ul className="dropdown">
-                            <li className="menu-heading">
-                              <a>Section Name</a>
-                            </li>
+                            <li className="menu-heading">Section name</li>
                             <li><a href="#">Level 3</a></li>
                             <li><a href="#">Level 3</a></li>
                             <li className="divider"></li>
@@ -520,9 +469,7 @@ const NavbarPage = () => (
                       <a href="#">Level 1</a>
                     </li>
                     <li className="divider"></li>
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
@@ -561,15 +508,11 @@ const NavbarPage = () => (
                     <i className="fa fa-caret-down" aria-hidden="true"></i>
                   </a>
                   <ul className="dropdown">
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li className="has-dropdown to-left">
                       <a href="#" className="">Level 1, Has Dropdown</a>
                       <ul className="dropdown">
-                        <li className="menu-heading">
-                          <a>Section Name</a>
-                        </li>
+                        <li className="menu-heading">Section name</li>
                         <li>
                           <a href="#">Level 2</a>
                         </li>
@@ -579,9 +522,7 @@ const NavbarPage = () => (
                         <li className="has-dropdown to-left">
                           <a href="#">Level 2, Has Dropdown</a>
                           <ul className="dropdown">
-                            <li className="menu-heading">
-                              <a>Section Name</a>
-                            </li>
+                            <li className="menu-heading">Section name</li>
                             <li><a href="#">Level 3</a></li>
                             <li><a href="#">Level 3</a></li>
                             <li className="divider"></li>
@@ -596,9 +537,7 @@ const NavbarPage = () => (
                       <a href="#">Level 1</a>
                     </li>
                     <li className="divider"></li>
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
@@ -620,15 +559,11 @@ const NavbarPage = () => (
                     <i className="fa fa-caret-down" aria-hidden="true"></i>
                   </a>
                   <ul className="dropdown">
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li className="has-dropdown to-right">
                       <a href="#" className="">Level 1, Has Dropdown</a>
                       <ul className="dropdown">
-                        <li className="menu-heading">
-                          <a>Section Name</a>
-                        </li>
+                        <li className="menu-heading">Section name</li>
                         <li>
                           <a href="#">Level 2</a>
                         </li>
@@ -638,9 +573,7 @@ const NavbarPage = () => (
                         <li className="has-dropdown to-right">
                           <a href="#">Level 2, Has Dropdown</a>
                           <ul className="dropdown">
-                            <li className="menu-heading">
-                              <a>Section Name</a>
-                            </li>
+                            <li className="menu-heading">Section name</li>
                             <li><a href="#">Level 3</a></li>
                             <li><a href="#">Level 3</a></li>
                             <li className="divider"></li>
@@ -655,9 +588,7 @@ const NavbarPage = () => (
                       <a href="#">Level 1</a>
                     </li>
                     <li className="divider"></li>
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
@@ -690,15 +621,11 @@ const NavbarPage = () => (
                         <i className="fa fa-caret-down" aria-hidden="true"></i>
                       </a>
                       <ul className="dropdown">
-                        <li className="menu-heading">
-                          <a>Section Name</a>
-                        </li>
+                        <li className="menu-heading">Section name</li>
                         <li className="has-dropdown to-left">
                           <a href="#" className="">Level 1, Has Dropdown</a>
                           <ul className="dropdown">
-                            <li className="menu-heading">
-                              <a>Section Name</a>
-                            </li>
+                            <li className="menu-heading">Section name</li>
                             <li>
                               <a href="#">Level 2</a>
                             </li>
@@ -708,9 +635,7 @@ const NavbarPage = () => (
                             <li className="has-dropdown to-left">
                               <a href="#">Level 2, Has Dropdown</a>
                               <ul className="dropdown">
-                                <li className="menu-heading">
-                                  <a>Section Name</a>
-                                </li>
+                                <li className="menu-heading">Section name</li>
                                 <li><a href="#">Level 3</a></li>
                                 <li><a href="#">Level 3</a></li>
                                 <li className="divider"></li>
@@ -725,9 +650,7 @@ const NavbarPage = () => (
                           <a href="#">Level 1</a>
                         </li>
                         <li className="divider"></li>
-                        <li className="menu-heading">
-                          <a>Section Name</a>
-                        </li>
+                        <li className="menu-heading">Section name</li>
                         <li><a href="#">Level 1</a></li>
                         <li><a href="#">Level 1</a></li>
                         <li><a href="#">Level 1</a></li>
@@ -752,15 +675,11 @@ const NavbarPage = () => (
                         <i className="fa fa-caret-down" aria-hidden="true"></i>
                       </a>
                       <ul className="dropdown">
-                        <li className="menu-heading">
-                          <a>Section Name</a>
-                        </li>
+                        <li className="menu-heading">Section name</li>
                         <li className="has-dropdown to-right">
                           <a href="#" className="">Level 1, Has Dropdown</a>
                           <ul className="dropdown">
-                            <li className="menu-heading">
-                              <a>Section Name</a>
-                            </li>
+                            <li className="menu-heading">Section name</li>
                             <li>
                               <a href="#">Level 2</a>
                             </li>
@@ -770,9 +689,7 @@ const NavbarPage = () => (
                             <li className="has-dropdown to-right">
                               <a href="#">Level 2, Has Dropdown</a>
                               <ul className="dropdown">
-                                <li className="menu-heading">
-                                  <a>Section Name</a>
-                                </li>
+                                <li className="menu-heading">Section name</li>
                                 <li><a href="#">Level 3</a></li>
                                 <li><a href="#">Level 3</a></li>
                                 <li className="divider"></li>
@@ -787,9 +704,7 @@ const NavbarPage = () => (
                           <a href="#">Level 1</a>
                         </li>
                         <li className="divider"></li>
-                        <li className="menu-heading">
-                          <a>Section Name</a>
-                        </li>
+                        <li className="menu-heading">Section name</li>
                         <li><a href="#">Level 1</a></li>
                         <li><a href="#">Level 1</a></li>
                         <li><a href="#">Level 1</a></li>
@@ -913,15 +828,11 @@ const NavbarPage = () => (
                     <i className="fa fa-caret-down" aria-hidden="true"></i>
                   </a>
                   <ul className="dropdown">
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li className="has-dropdown to-right">
                       <a href="#" className="">Level 1, Has Dropdown</a>
                       <ul className="dropdown">
-                        <li className="menu-heading">
-                          <a>Section Name</a>
-                        </li>
+                        <li className="menu-heading">Section name</li>
                         <li>
                           <a href="#">Level 2</a>
                         </li>
@@ -931,9 +842,7 @@ const NavbarPage = () => (
                         <li className="has-dropdown to-right">
                           <a href="#">Level 2, Has Dropdown</a>
                           <ul className="dropdown">
-                            <li className="menu-heading">
-                              <a>Section Name</a>
-                            </li>
+                            <li className="menu-heading">Section name</li>
                             <li><a href="#">Level 3</a></li>
                             <li><a href="#">Level 3</a></li>
                             <li className="divider"></li>
@@ -948,9 +857,7 @@ const NavbarPage = () => (
                       <a href="#">Level 1</a>
                     </li>
                     <li className="divider"></li>
-                    <li className="menu-heading">
-                      <a>Section Name</a>
-                    </li>
+                    <li className="menu-heading">Section name</li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
                     <li><a href="#">Level 1</a></li>
