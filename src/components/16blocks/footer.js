@@ -27,13 +27,12 @@ const Footer = () => (
         
         <div className="footer">
           <ul className="list-inline">
-            <li><a href="">11111</a></li>
-            <li><a href="">22222</a></li>
-            <li><a href="">33333</a></li>
-            <li><a href="">44444</a></li>
+            <li><a className="n-has-icon n-icon-patreon" href="https://www.patreon.com/nulllogic"></a></li>
+            <li><a className="n-has-icon n-icon-website" href="http://www.nulllogic.net/"></a></li>
+            <li><a className="n-has-icon n-icon-twitter" href="https://twitter.com/nulllogic"></a></li>
+            <li><a className="n-has-icon n-icon-youtube" href="https://www.youtube.com/channel/UCplOorzqj4lqljTh77CID_w"></a></li>
           </ul>
-          <p>Designed and built with all the love in the world by @mdo and @fat. Maintained by the core team with the
-            help of our contributors. <br/>Code licensed MIT, docs CC BY 3.0.</p>
+          <p>Designed and built with all the love in the world by Vladimir and Anastasiya. <br/>All rights reserved. Copyright, 2020</p>
         </div>
     </footer>
 )
